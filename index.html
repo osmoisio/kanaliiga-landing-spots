@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PUBG Landing Spots — Kanaliiga Division 2</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <h1>PUBG Landing Spots</h1>
+  <p class="subtitle">Team drop locations across Kanaliiga Division 2 matches</p>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="control-group">
+      <label for="map-select">Map</label>
+      <select id="map-select"></select>
+    </div>
+
+    <div class="control-group">
+      <label>Matches on this map</label>
+      <div id="match-list" class="match-list"></div>
+    </div>
+
+    <div class="control-group">
+      <label>Teams</label>
+      <div class="team-actions">
+        <button id="team-select-all" type="button">All</button>
+        <button id="team-select-none" type="button">None</button>
+      </div>
+      <div id="team-list" class="team-list"></div>
+    </div>
+
+    <div class="control-group legend">
+      <label>Legend</label>
+      <div class="legend-item"><span class="ring ring-gold"></span> 1st place</div>
+      <div class="legend-item"><span class="ring ring-silver"></span> Top 5</div>
+      <div class="legend-item"><span class="ring ring-plain"></span> Other</div>
+    </div>
+  </aside>
+
+  <main class="map-area">
+    <div class="map-toolbar">
+      <button id="zoom-out" type="button" title="Zoom out">−</button>
+      <span id="zoom-level" class="zoom-level">100%</span>
+      <button id="zoom-in" type="button" title="Zoom in">+</button>
+      <button id="zoom-reset" type="button" title="Reset view">Reset view</button>
+      <span class="zoom-hint">Scroll to zoom · drag to pan · click a logo for player spots</span>
+    </div>
+    <div id="map-container" class="map-container">
+      <div id="zoom-wrap" class="zoom-wrap">
+        <img id="map-image" alt="Map" draggable="false" />
+        <div id="markers-layer" class="markers-layer"></div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div id="tooltip" class="tooltip hidden"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
