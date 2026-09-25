@@ -651,10 +651,10 @@ const MATCH_DATA = {
       "placement": 10,
       "kills": 5,
       "players_landed": 4,
-      "x_norm": 0.4594,
-      "y_norm": 0.5089,
-      "x_px": 1764,
-      "y_px": 1954,
+      "x_norm": 0.4566,
+      "y_norm": 0.5077,
+      "x_px": 1753,
+      "y_px": 1949,
       "players": [
         {
           "player_id": 1,
@@ -993,11 +993,11 @@ const MATCH_DATA = {
       "team_id": 1034,
       "placement": 17,
       "kills": 0,
-      "players_landed": 3,
-      "x_norm": 0.685,
-      "y_norm": 0.1798,
-      "x_px": 2630,
-      "y_px": 690,
+      "players_landed": 4,
+      "x_norm": 0.6932,
+      "y_norm": 0.1775,
+      "x_px": 2662,
+      "y_px": 682,
       "players": [
         {
           "player_id": 5,
@@ -1014,6 +1014,14 @@ const MATCH_DATA = {
           "y_norm": 0.1651,
           "x_px": 2632,
           "y_px": 634
+        },
+        {
+          "player_id": 7,
+          "pubg_name": "JanGun",
+          "x_norm": 0.7177,
+          "y_norm": 0.1706,
+          "x_px": 2756,
+          "y_px": 655
         },
         {
           "player_id": 8,
@@ -1165,11 +1173,11 @@ const MATCH_DATA = {
       "team_id": 306,
       "placement": 3,
       "kills": 3,
-      "players_landed": 3,
-      "x_norm": 0.5628,
-      "y_norm": 0.5672,
-      "x_px": 2161,
-      "y_px": 2178,
+      "players_landed": 4,
+      "x_norm": 0.5654,
+      "y_norm": 0.574,
+      "x_px": 2171,
+      "y_px": 2204,
       "players": [
         {
           "player_id": 123,
@@ -1194,6 +1202,14 @@ const MATCH_DATA = {
           "y_norm": 0.572,
           "x_px": 2215,
           "y_px": 2196
+        },
+        {
+          "player_id": 126,
+          "pubg_name": "Targaryen73",
+          "x_norm": 0.5734,
+          "y_norm": 0.5944,
+          "x_px": 2202,
+          "y_px": 2283
         }
       ]
     },
@@ -1827,11 +1843,11 @@ const MATCH_DATA = {
       "team_id": 2345,
       "placement": 17,
       "kills": 2,
-      "players_landed": 2,
-      "x_norm": 0.441,
-      "y_norm": 0.5921,
-      "x_px": 1694,
-      "y_px": 2274,
+      "players_landed": 4,
+      "x_norm": 0.4121,
+      "y_norm": 0.6217,
+      "x_px": 1582,
+      "y_px": 2387,
       "players": [
         {
           "player_id": 103,
@@ -1840,6 +1856,22 @@ const MATCH_DATA = {
           "y_norm": 0.5571,
           "x_px": 1720,
           "y_px": 2139
+        },
+        {
+          "player_id": 104,
+          "pubg_name": "kesaesa",
+          "x_norm": 0.3657,
+          "y_norm": 0.6621,
+          "x_px": 1404,
+          "y_px": 2542
+        },
+        {
+          "player_id": 105,
+          "pubg_name": "RedLine5544",
+          "x_norm": 0.4006,
+          "y_norm": 0.6406,
+          "x_px": 1538,
+          "y_px": 2460
         },
         {
           "player_id": 106,
@@ -3102,11 +3134,11 @@ const MATCH_DATA = {
       "team_id": 2390,
       "placement": 8,
       "kills": 3,
-      "players_landed": 3,
-      "x_norm": 0.5193,
-      "y_norm": 0.493,
-      "x_px": 1994,
-      "y_px": 1893,
+      "players_landed": 4,
+      "x_norm": 0.5349,
+      "y_norm": 0.4917,
+      "x_px": 2054,
+      "y_px": 1888,
       "players": [
         {
           "player_id": 268,
@@ -3115,6 +3147,14 @@ const MATCH_DATA = {
           "y_norm": 0.5046,
           "x_px": 2018,
           "y_px": 1938
+        },
+        {
+          "player_id": 269,
+          "pubg_name": "codesnae",
+          "x_norm": 0.5819,
+          "y_norm": 0.4879,
+          "x_px": 2235,
+          "y_px": 1873
         },
         {
           "player_id": 270,
@@ -3192,12 +3232,28 @@ const MATCH_DATA = {
       "team_id": 2345,
       "placement": 10,
       "kills": 5,
-      "players_landed": 2,
-      "x_norm": 0.5256,
-      "y_norm": 0.1252,
-      "x_px": 2018,
-      "y_px": 481,
+      "players_landed": 4,
+      "x_norm": 0.5577,
+      "y_norm": 0.1371,
+      "x_px": 2141,
+      "y_px": 527,
       "players": [
+        {
+          "player_id": 272,
+          "pubg_name": "RedLine5544",
+          "x_norm": 0.5893,
+          "y_norm": 0.1496,
+          "x_px": 2263,
+          "y_px": 574
+        },
+        {
+          "player_id": 273,
+          "pubg_name": "JuxuPuxu",
+          "x_norm": 0.5902,
+          "y_norm": 0.1485,
+          "x_px": 2266,
+          "y_px": 570
+        },
         {
           "player_id": 274,
           "pubg_name": "azgah",
@@ -3601,12 +3657,20 @@ const MATCH_DATA = {
       "team_id": 2384,
       "placement": 1,
       "kills": 8,
-      "players_landed": 3,
-      "x_norm": 0.5682,
-      "y_norm": 0.3925,
-      "x_px": 2182,
-      "y_px": 1507,
+      "players_landed": 4,
+      "x_norm": 0.5624,
+      "y_norm": 0.3856,
+      "x_px": 2159,
+      "y_px": 1481,
       "players": [
+        {
+          "player_id": 1148,
+          "pubg_name": "bob_hans",
+          "x_norm": 0.5448,
+          "y_norm": 0.3649,
+          "x_px": 2092,
+          "y_px": 1401
+        },
         {
           "player_id": 1149,
           "pubg_name": "InsaneAsylum",
@@ -4313,10 +4377,10 @@ const MATCH_DATA = {
       "placement": 16,
       "kills": 0,
       "players_landed": 4,
-      "x_norm": 0.754,
-      "y_norm": 0.3567,
-      "x_px": 2896,
-      "y_px": 1370,
+      "x_norm": 0.756,
+      "y_norm": 0.3599,
+      "x_px": 2903,
+      "y_px": 1382,
       "players": [
         {
           "player_id": 1132,
@@ -4746,10 +4810,10 @@ const MATCH_DATA = {
       "placement": 7,
       "kills": 10,
       "players_landed": 4,
-      "x_norm": 0.1611,
-      "y_norm": 0.5858,
-      "x_px": 619,
-      "y_px": 2250,
+      "x_norm": 0.1745,
+      "y_norm": 0.5961,
+      "x_px": 670,
+      "y_px": 2289,
       "players": [
         {
           "player_id": 1194,
@@ -5946,11 +6010,11 @@ const MATCH_DATA = {
       "team_id": 2345,
       "placement": 14,
       "kills": 4,
-      "players_landed": 3,
-      "x_norm": 0.4442,
-      "y_norm": 0.8803,
-      "x_px": 1706,
-      "y_px": 3380,
+      "players_landed": 4,
+      "x_norm": 0.4266,
+      "y_norm": 0.8793,
+      "x_px": 1638,
+      "y_px": 3376,
       "players": [
         {
           "player_id": 1308,
@@ -5959,6 +6023,14 @@ const MATCH_DATA = {
           "y_norm": 0.8778,
           "x_px": 1923,
           "y_px": 3371
+        },
+        {
+          "player_id": 1309,
+          "pubg_name": "kesaesa",
+          "x_norm": 0.3739,
+          "y_norm": 0.8762,
+          "x_px": 1436,
+          "y_px": 3365
         },
         {
           "player_id": 1310,
@@ -6233,10 +6305,10 @@ const MATCH_DATA = {
       "placement": 2,
       "kills": 2,
       "players_landed": 4,
-      "x_norm": 0.8474,
-      "y_norm": 0.705,
+      "x_norm": 0.8473,
+      "y_norm": 0.7048,
       "x_px": 3254,
-      "y_px": 2707,
+      "y_px": 2706,
       "players": [
         {
           "player_id": 1338,
@@ -6281,11 +6353,11 @@ const MATCH_DATA = {
       "team_id": 306,
       "placement": 3,
       "kills": 7,
-      "players_landed": 3,
-      "x_norm": 0.7136,
-      "y_norm": 0.2949,
-      "x_px": 2740,
-      "y_px": 1133,
+      "players_landed": 4,
+      "x_norm": 0.713,
+      "y_norm": 0.2735,
+      "x_px": 2738,
+      "y_px": 1050,
       "players": [
         {
           "player_id": 1331,
@@ -6302,6 +6374,14 @@ const MATCH_DATA = {
           "y_norm": 0.3009,
           "x_px": 2731,
           "y_px": 1155
+        },
+        {
+          "player_id": 1333,
+          "pubg_name": "Tiger-Fi",
+          "x_norm": 0.7112,
+          "y_norm": 0.209,
+          "x_px": 2731,
+          "y_px": 803
         },
         {
           "player_id": 1334,
@@ -6559,11 +6639,11 @@ const MATCH_DATA = {
       "team_id": 2384,
       "placement": 9,
       "kills": 1,
-      "players_landed": 3,
-      "x_norm": 0.4899,
-      "y_norm": 0.4343,
-      "x_px": 1881,
-      "y_px": 1668,
+      "players_landed": 4,
+      "x_norm": 0.4701,
+      "y_norm": 0.441,
+      "x_px": 1805,
+      "y_px": 1694,
       "players": [
         {
           "player_id": 1358,
@@ -6580,6 +6660,14 @@ const MATCH_DATA = {
           "y_norm": 0.4605,
           "x_px": 1945,
           "y_px": 1768
+        },
+        {
+          "player_id": 1360,
+          "pubg_name": "ch33ts",
+          "x_norm": 0.4106,
+          "y_norm": 0.4612,
+          "x_px": 1577,
+          "y_px": 1771
         },
         {
           "player_id": 1361,
@@ -6797,10 +6885,10 @@ const MATCH_DATA = {
       "placement": 14,
       "kills": 4,
       "players_landed": 4,
-      "x_norm": 0.6021,
-      "y_norm": 0.4587,
-      "x_px": 2312,
-      "y_px": 1761,
+      "x_norm": 0.6002,
+      "y_norm": 0.4578,
+      "x_px": 2305,
+      "y_px": 1758,
       "players": [
         {
           "player_id": 1319,
@@ -6895,10 +6983,10 @@ const MATCH_DATA = {
       "placement": 16,
       "kills": 1,
       "players_landed": 4,
-      "x_norm": 0.5652,
-      "y_norm": 0.4347,
-      "x_px": 2170,
-      "y_px": 1669,
+      "x_norm": 0.5604,
+      "y_norm": 0.442,
+      "x_px": 2152,
+      "y_px": 1697,
       "players": [
         {
           "player_id": 1327,
