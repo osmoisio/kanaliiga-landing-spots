@@ -84,13 +84,19 @@ html, body {
   font-size: 14px;
 }
 
-.match-list, .team-list {
+.match-list {
   display: flex;
   flex-direction: column;
   gap: 6px;
   max-height: 260px;
   overflow-y: auto;
   padding-right: 4px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .check-row {
@@ -116,12 +122,14 @@ html, body {
   background: #1a2338;
 }
 
+.match-actions,
 .team-actions {
   display: flex;
   gap: 8px;
   margin-bottom: 8px;
 }
 
+.match-actions button,
 .team-actions button {
   flex: 1;
   padding: 5px 0;
@@ -133,6 +141,7 @@ html, body {
   font-size: 12px;
 }
 
+.match-actions button:hover,
 .team-actions button:hover {
   border-color: var(--accent);
   color: var(--accent);

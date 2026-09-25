@@ -10,6 +10,8 @@
   const mapImage = document.getElementById("map-image");
   const markersLayer = document.getElementById("markers-layer");
   const tooltip = document.getElementById("tooltip");
+  const matchSelectAllBtn = document.getElementById("match-select-all");
+  const matchSelectNoneBtn = document.getElementById("match-select-none");
   const teamSelectAllBtn = document.getElementById("team-select-all");
   const teamSelectNoneBtn = document.getElementById("team-select-none");
   const zoomInBtn = document.getElementById("zoom-in");
@@ -336,6 +338,15 @@
   }
 
   mapSelect.addEventListener("change", () => selectMap(Number(mapSelect.value)));
+
+  matchSelectAllBtn.addEventListener("click", () => {
+    matchListEl.querySelectorAll("input[type=checkbox]").forEach((cb) => (cb.checked = true));
+    renderMarkers();
+  });
+  matchSelectNoneBtn.addEventListener("click", () => {
+    matchListEl.querySelectorAll("input[type=checkbox]").forEach((cb) => (cb.checked = false));
+    renderMarkers();
+  });
 
   teamSelectAllBtn.addEventListener("click", () => {
     teamListEl.querySelectorAll("input[type=checkbox]").forEach((cb) => (cb.checked = true));
