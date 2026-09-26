@@ -8,6 +8,7 @@
   const mapContainer = document.getElementById("map-container");
   const zoomWrap = document.getElementById("zoom-wrap");
   const mapImage = document.getElementById("map-image");
+  const flightPathLayer = document.getElementById("flight-path-layer");
   const markersLayer = document.getElementById("markers-layer");
   const tooltip = document.getElementById("tooltip");
   const matchSelectAllBtn = document.getElementById("match-select-all");
@@ -24,6 +25,7 @@
 
   let currentMapId = null;
   let selectedRowKey = null; // "<match_id>_<team_id>" of the team currently drilled into
+  let hoveredMatchId = null; // match id of the marker currently under the mouse, if any
 
   // ---- zoom / pan state -----------------------------------------------
   const MIN_SCALE = 1;
@@ -239,9 +241,17 @@
       img.loading = "lazy";
       marker.appendChild(img);
 
-      marker.addEventListener("mouseenter", (ev) => showTeamTooltip(ev, team, match, row));
+      marker.addEventListener("mouseenter", (ev) => {
+        hoveredMatchId = row.match_id;
+        updateFlightPath();
+        showTeamTooltip(ev, team, match, row);
+      });
       marker.addEventListener("mousemove", moveTooltip);
-      marker.addEventListener("mouseleave", hideTooltip);
+      marker.addEventListener("mouseleave", () => {
+        hoveredMatchId = null;
+        updateFlightPath();
+        hideTooltip();
+      });
       marker.addEventListener("click", (ev) => {
         ev.preventDefault();
         selectedRowKey = isSelected ? null : key;
@@ -254,6 +264,8 @@
     if (selectedRow) {
       renderPlayerDetail(selectedRow);
     }
+
+    updateFlightPath();
   }
 
   function renderPlayerDetail(row) {
@@ -282,11 +294,109 @@
       dot.className = "player-marker";
       dot.style.left = `${(p.x_norm * 100).toFixed(3)}%`;
       dot.style.top = `${(p.y_norm * 100).toFixed(3)}%`;
-      dot.addEventListener("mouseenter", (ev) => showPlayerTooltip(ev, team, match, p));
+      dot.addEventListener("mouseenter", (ev) => {
+        hoveredMatchId = row.match_id;
+        updateFlightPath();
+        showPlayerTooltip(ev, team, match, p);
+      });
       dot.addEventListener("mousemove", moveTooltip);
-      dot.addEventListener("mouseleave", hideTooltip);
+      dot.addEventListener("mouseleave", () => {
+        hoveredMatchId = null;
+        updateFlightPath();
+        hideTooltip();
+      });
       markersLayer.appendChild(dot);
     }
+  }
+
+  // ---- plane flight path -------------------------------------------------
+  // Shown for a match's drop plane when hovering a team/player marker for
+  // that match, when a team is drilled into, or automatically when the
+  // match checkboxes narrow the view down to a single match.
+  const FLIGHT_PATH_NS = "http://www.w3.org/2000/svg";
+  let flightPathMatchId = null;
+
+  function currentFocusMatchId() {
+    if (hoveredMatchId != null) return hoveredMatchId;
+    if (selectedRowKey) return Number(selectedRowKey.split("_")[0]);
+    const activeMatchIds = selectedIds(matchListEl, "data-match-id");
+    if (activeMatchIds.size === 1) return [...activeMatchIds][0];
+    return null;
+  }
+
+  function buildFlightPathSvg(plane) {
+    const svg = document.createElementNS(FLIGHT_PATH_NS, "svg");
+    svg.setAttribute("viewBox", "0 0 100 100");
+    svg.setAttribute("preserveAspectRatio", "none");
+
+    const defs = document.createElementNS(FLIGHT_PATH_NS, "defs");
+    const marker = document.createElementNS(FLIGHT_PATH_NS, "marker");
+    marker.setAttribute("id", "flight-arrow");
+    marker.setAttribute("viewBox", "0 0 10 10");
+    marker.setAttribute("refX", "6");
+    marker.setAttribute("refY", "5");
+    marker.setAttribute("markerWidth", "3.2");
+    marker.setAttribute("markerHeight", "3.2");
+    marker.setAttribute("orient", "auto-start-reverse");
+    const arrowPath = document.createElementNS(FLIGHT_PATH_NS, "path");
+    arrowPath.setAttribute("d", "M0,0 L10,5 L0,10 z");
+    arrowPath.setAttribute("fill", "var(--accent)");
+    marker.appendChild(arrowPath);
+    defs.appendChild(marker);
+    svg.appendChild(defs);
+
+    const x1 = plane.start_x_norm * 100;
+    const y1 = plane.start_y_norm * 100;
+    const x2 = plane.end_x_norm * 100;
+    const y2 = plane.end_y_norm * 100;
+
+    const line = document.createElementNS(FLIGHT_PATH_NS, "line");
+    line.setAttribute("class", "flight-line");
+    line.setAttribute("x1", x1.toFixed(3));
+    line.setAttribute("y1", y1.toFixed(3));
+    line.setAttribute("x2", x2.toFixed(3));
+    line.setAttribute("y2", y2.toFixed(3));
+    line.setAttribute("marker-end", "url(#flight-arrow)");
+    svg.appendChild(line);
+
+    const startDot = document.createElementNS(FLIGHT_PATH_NS, "circle");
+    startDot.setAttribute("class", "flight-endpoint");
+    startDot.setAttribute("cx", x1.toFixed(3));
+    startDot.setAttribute("cy", y1.toFixed(3));
+    startDot.setAttribute("r", "0.8");
+    svg.appendChild(startDot);
+
+    // Two animation frames so the CSS transition (opacity 0 -> 1) actually
+    // runs instead of the freshly-inserted elements starting at their final
+    // "visible" state.
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        line.classList.add("visible");
+        startDot.classList.add("visible");
+      });
+    });
+
+    return svg;
+  }
+
+  function renderFlightPath(match) {
+    const plane = match && match.map_id === currentMapId ? match.plane_path : null;
+    if (!plane) {
+      if (flightPathMatchId !== null) {
+        flightPathLayer.innerHTML = "";
+        flightPathMatchId = null;
+      }
+      return;
+    }
+    if (flightPathMatchId === match.match_id) return; // already showing this match's path
+    flightPathMatchId = match.match_id;
+    flightPathLayer.innerHTML = "";
+    flightPathLayer.appendChild(buildFlightPathSvg(plane));
+  }
+
+  function updateFlightPath() {
+    const matchId = currentFocusMatchId();
+    renderFlightPath(matchId != null ? matchesById.get(matchId) : null);
   }
 
   function showTeamTooltip(ev, team, match, row) {
@@ -328,6 +438,7 @@
   function selectMap(mapId) {
     currentMapId = mapId;
     selectedRowKey = null;
+    hoveredMatchId = null;
     resetView();
     const mapInfo = MATCH_DATA.maps.find((m) => m.map_id === mapId);
     mapImage.src = mapInfo.art_path;

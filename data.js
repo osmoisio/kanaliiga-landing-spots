@@ -150,7 +150,13 @@ const MATCH_DATA = {
       "match_number": 1,
       "played_at": "2026-09-14T17:02:58.000Z",
       "winner_team_id": 2390,
-      "winner_team_name": "Codemate"
+      "winner_team_name": "Codemate",
+      "plane_path": {
+        "start_x_norm": 0.9118,
+        "start_y_norm": 1.0748,
+        "end_x_norm": 0.5245,
+        "end_y_norm": 0.2288
+      }
     },
     {
       "match_id": 2,
@@ -160,7 +166,13 @@ const MATCH_DATA = {
       "match_number": 2,
       "played_at": "2026-09-14T17:43:34.000Z",
       "winner_team_id": 2372,
-      "winner_team_name": "Procemex"
+      "winner_team_name": "Procemex",
+      "plane_path": {
+        "start_x_norm": 1.1615,
+        "start_y_norm": 0.2501,
+        "end_x_norm": 0.2544,
+        "end_y_norm": 0.4446
+      }
     },
     {
       "match_id": 3,
@@ -170,7 +182,13 @@ const MATCH_DATA = {
       "match_number": 3,
       "played_at": "2026-09-14T18:21:29.000Z",
       "winner_team_id": 2377,
-      "winner_team_name": "OP Basic"
+      "winner_team_name": "OP Basic",
+      "plane_path": {
+        "start_x_norm": -0.0063,
+        "start_y_norm": 0.0064,
+        "end_x_norm": 0.6083,
+        "end_y_norm": 0.5996
+      }
     },
     {
       "match_id": 4,
@@ -180,7 +198,13 @@ const MATCH_DATA = {
       "match_number": 4,
       "played_at": "2026-09-14T19:02:26.000Z",
       "winner_team_id": 306,
-      "winner_team_name": "Pinja"
+      "winner_team_name": "Pinja",
+      "plane_path": {
+        "start_x_norm": 0.3744,
+        "start_y_norm": -0.1959,
+        "end_x_norm": 0.3676,
+        "end_y_norm": 0.7674
+      }
     },
     {
       "match_id": 17,
@@ -190,7 +214,13 @@ const MATCH_DATA = {
       "match_number": 1,
       "played_at": "2026-09-21T17:03:47.000Z",
       "winner_team_id": 2384,
-      "winner_team_name": "Hellon One"
+      "winner_team_name": "Hellon One",
+      "plane_path": {
+        "start_x_norm": 1.0228,
+        "start_y_norm": 0.0239,
+        "end_x_norm": 0.5356,
+        "end_y_norm": 0.7549
+      }
     },
     {
       "match_id": 18,
@@ -200,7 +230,13 @@ const MATCH_DATA = {
       "match_number": 2,
       "played_at": "2026-09-21T17:44:07.000Z",
       "winner_team_id": 749,
-      "winner_team_name": "Loihde"
+      "winner_team_name": "Loihde",
+      "plane_path": {
+        "start_x_norm": 1.2037,
+        "start_y_norm": 0.4308,
+        "end_x_norm": 0.1803,
+        "end_y_norm": 0.4773
+      }
     },
     {
       "match_id": 19,
@@ -210,7 +246,13 @@ const MATCH_DATA = {
       "match_number": 3,
       "played_at": "2026-09-21T18:21:53.000Z",
       "winner_team_id": 306,
-      "winner_team_name": "Pinja"
+      "winner_team_name": "Pinja",
+      "plane_path": {
+        "start_x_norm": 0.5981,
+        "start_y_norm": 1.2003,
+        "end_x_norm": 0.6694,
+        "end_y_norm": 0.2435
+      }
     },
     {
       "match_id": 20,
@@ -220,7 +262,13 @@ const MATCH_DATA = {
       "match_number": 4,
       "played_at": "2026-09-21T19:01:26.000Z",
       "winner_team_id": 66,
-      "winner_team_name": "Valtori"
+      "winner_team_name": "Valtori",
+      "plane_path": {
+        "start_x_norm": 1.0314,
+        "start_y_norm": 0.9665,
+        "end_x_norm": 0.4636,
+        "end_y_norm": 0.2217
+      }
     }
   ],
   "landings": [

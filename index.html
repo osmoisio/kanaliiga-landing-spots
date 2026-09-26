@@ -42,6 +42,8 @@
       <div class="legend-item"><span class="ring ring-gold"></span> 1st place</div>
       <div class="legend-item"><span class="ring ring-silver"></span> Top 5</div>
       <div class="legend-item"><span class="ring ring-plain"></span> Other</div>
+      <div class="legend-item"><span class="legend-line"></span> Plane flight path</div>
+      <p class="legend-hint">Shown on hover over a team logo, or automatically when only one match is checked.</p>
     </div>
   </aside>
 
@@ -56,6 +58,7 @@
     <div id="map-container" class="map-container">
       <div id="zoom-wrap" class="zoom-wrap">
         <img id="map-image" alt="Map" draggable="false" />
+        <div id="flight-path-layer" class="flight-path-layer"></div>
         <div id="markers-layer" class="markers-layer"></div>
       </div>
     </div>
