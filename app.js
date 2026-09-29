@@ -123,6 +123,86 @@
     }
   });
 
+  // ---- touch support (one-finger pan, two-finger pinch-zoom) -----------
+  let touchMode = null; // "pan" | "pinch" | null
+  let touchDragDistance = 0;
+  let touchPanStart = { x: 0, y: 0 };
+  let pinchStartDist = 0;
+  let pinchStartScale = 1;
+  let pinchStartMid = { x: 0, y: 0 };
+  let pinchStartOrigin = { tx: 0, ty: 0 };
+
+  function touchDistance(t0, t1) {
+    return Math.hypot(t1.clientX - t0.clientX, t1.clientY - t0.clientY);
+  }
+
+  function touchMidpoint(t0, t1, rect) {
+    return {
+      x: (t0.clientX + t1.clientX) / 2 - rect.left,
+      y: (t0.clientY + t1.clientY) / 2 - rect.top,
+    };
+  }
+
+  mapContainer.addEventListener(
+    "touchstart",
+    (ev) => {
+      if (ev.target.closest(".marker, .player-marker")) return; // let tap-to-select/drill-in work normally
+      if (ev.touches.length === 1) {
+        touchMode = "pan";
+        touchDragDistance = 0;
+        touchPanStart = { x: ev.touches[0].clientX, y: ev.touches[0].clientY };
+        panOrigin = { tx: view.tx, ty: view.ty };
+      } else if (ev.touches.length === 2) {
+        ev.preventDefault();
+        touchMode = "pinch";
+        const rect = mapContainer.getBoundingClientRect();
+        pinchStartDist = touchDistance(ev.touches[0], ev.touches[1]);
+        pinchStartScale = view.scale;
+        pinchStartMid = touchMidpoint(ev.touches[0], ev.touches[1], rect);
+        pinchStartOrigin = { tx: view.tx, ty: view.ty };
+      }
+    },
+    { passive: false }
+  );
+
+  mapContainer.addEventListener(
+    "touchmove",
+    (ev) => {
+      if (touchMode === "pan" && ev.touches.length === 1) {
+        ev.preventDefault();
+        const dx = ev.touches[0].clientX - touchPanStart.x;
+        const dy = ev.touches[0].clientY - touchPanStart.y;
+        touchDragDistance = Math.max(touchDragDistance, Math.hypot(dx, dy));
+        view.tx = panOrigin.tx + dx;
+        view.ty = panOrigin.ty + dy;
+        clampPan();
+        applyView();
+      } else if (touchMode === "pinch" && ev.touches.length === 2) {
+        ev.preventDefault();
+        const dist = touchDistance(ev.touches[0], ev.touches[1]);
+        const newScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, pinchStartScale * (dist / pinchStartDist)));
+        const contentX = (pinchStartMid.x - pinchStartOrigin.tx) / pinchStartScale;
+        const contentY = (pinchStartMid.y - pinchStartOrigin.ty) / pinchStartScale;
+        view.scale = newScale;
+        view.tx = pinchStartMid.x - contentX * newScale;
+        view.ty = pinchStartMid.y - contentY * newScale;
+        clampPan();
+        applyView();
+      }
+    },
+    { passive: false }
+  );
+
+  mapContainer.addEventListener("touchend", (ev) => {
+    if (touchMode === "pan" && touchDragDistance < 4) {
+      // A tap (not a drag) on empty map space collapses any drilled-in team,
+      // mirroring the mouse click-on-background behavior.
+      selectedRowKey = null;
+      renderMarkers();
+    }
+    if (ev.touches.length === 0) touchMode = null;
+  });
+
   // ---- data helpers -----------------------------------------------------
   function formatDate(iso) {
     const d = new Date(iso);
@@ -164,26 +244,28 @@
       .sort((a, b) => a.team_name.localeCompare(b.team_name));
   }
 
-  function populateMatchList(mapId) {
+  function populateMatchList(mapId, checkedIds) {
     matchListEl.innerHTML = "";
     for (const match of matchesForMap(mapId)) {
+      const checked = checkedIds ? checkedIds.has(match.match_id) : true;
       const row = document.createElement("label");
       row.className = "check-row";
-      row.innerHTML = `<input type="checkbox" checked data-match-id="${match.match_id}"> ${matchLabel(match)}`;
+      row.innerHTML = `<input type="checkbox" ${checked ? "checked" : ""} data-match-id="${match.match_id}"> ${matchLabel(match)}`;
       row.querySelector("input").addEventListener("change", renderMarkers);
       matchListEl.appendChild(row);
     }
   }
 
-  function populateTeamList(mapId) {
+  function populateTeamList(mapId, checkedIds) {
     teamListEl.innerHTML = "";
     for (const team of teamsForMap(mapId)) {
+      const checked = checkedIds ? checkedIds.has(team.team_id) : true;
       const row = document.createElement("label");
       row.className = "check-row";
       const img = team.logo_path
         ? `<img class="team-mini-logo" src="${team.logo_path}" alt="">`
         : `<span class="team-mini-logo"></span>`;
-      row.innerHTML = `<input type="checkbox" checked data-team-id="${team.team_id}"> ${img} ${team.team_name}`;
+      row.innerHTML = `<input type="checkbox" ${checked ? "checked" : ""} data-team-id="${team.team_id}"> ${img} ${team.team_name}`;
       row.querySelector("input").addEventListener("change", renderMarkers);
       teamListEl.appendChild(row);
     }
@@ -266,6 +348,7 @@
     }
 
     updateFlightPath();
+    writeStateToUrl();
   }
 
   function renderPlayerDetail(row) {
@@ -435,16 +518,16 @@
     tooltip.classList.add("hidden");
   }
 
-  function selectMap(mapId) {
+  function selectMap(mapId, initialState) {
     currentMapId = mapId;
-    selectedRowKey = null;
+    selectedRowKey = (initialState && initialState.selectedRowKey) || null;
     hoveredMatchId = null;
     resetView();
     const mapInfo = MATCH_DATA.maps.find((m) => m.map_id === mapId);
     mapImage.src = mapInfo.art_path;
     mapImage.alt = mapInfo.display_name;
-    populateMatchList(mapId);
-    populateTeamList(mapId);
+    populateMatchList(mapId, initialState && initialState.matchIds);
+    populateTeamList(mapId, initialState && initialState.teamIds);
     renderMarkers();
   }
 
@@ -468,9 +551,69 @@
     renderMarkers();
   });
 
+  // ---- shareable URL state -----------------------------------------------
+  // The selected map, checked matches/teams, and any drilled-into team are
+  // mirrored into the URL's query string so the address bar link (or
+  // browser back/forward) reproduces the exact same view.
+  function readStateFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const parseIds = (key) => {
+      const raw = params.get(key);
+      if (raw === null) return null;
+      const ids = raw
+        .split(",")
+        .filter((s) => s !== "")
+        .map(Number)
+        .filter((n) => !Number.isNaN(n));
+      return new Set(ids);
+    };
+    return {
+      mapId: params.has("map") ? Number(params.get("map")) : null,
+      matchIds: parseIds("matches"),
+      teamIds: parseIds("teams"),
+      selectedRowKey: params.get("sel"),
+    };
+  }
+
+  function writeStateToUrl() {
+    if (currentMapId == null) return;
+    const params = new URLSearchParams();
+    params.set("map", String(currentMapId));
+
+    const allMatchIds = matchesForMap(currentMapId).map((m) => m.match_id);
+    const checkedMatchIds = [...selectedIds(matchListEl, "data-match-id")];
+    if (checkedMatchIds.length !== allMatchIds.length) {
+      params.set("matches", checkedMatchIds.join(","));
+    }
+
+    const allTeamIds = teamsForMap(currentMapId).map((t) => t.team_id);
+    const checkedTeamIds = [...selectedIds(teamListEl, "data-team-id")];
+    if (checkedTeamIds.length !== allTeamIds.length) {
+      params.set("teams", checkedTeamIds.join(","));
+    }
+
+    if (selectedRowKey) params.set("sel", selectedRowKey);
+
+    const qs = params.toString();
+    const url = `${window.location.pathname}${qs ? `?${qs}` : ""}${window.location.hash}`;
+    window.history.replaceState(null, "", url);
+  }
+
+  function applyUrlState() {
+    const urlState = readStateFromUrl();
+    const mapId =
+      urlState.mapId != null && MATCH_DATA.maps.some((m) => m.map_id === urlState.mapId)
+        ? urlState.mapId
+        : Number(mapSelect.value);
+    mapSelect.value = String(mapId);
+    selectMap(mapId, urlState);
+  }
+
+  window.addEventListener("popstate", applyUrlState);
+
   populateMapSelect();
   if (MATCH_DATA.maps.length > 0) {
-    const firstMapId = Number(mapSelect.value);
-    selectMap(firstMapId);
+    applyUrlState();
   }
 })();
+
