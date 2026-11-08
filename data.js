@@ -598,6 +598,70 @@ const MATCH_DATA = {
         "end_x_norm": 0.7644,
         "end_y_norm": 0.2338
       }
+    },
+    {
+      "match_id": 113,
+      "map_id": 16,
+      "map_name": "Rondo",
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "winner_team_id": 2384,
+      "winner_team_name": "Hellon One",
+      "plane_path": {
+        "start_x_norm": -0.0779,
+        "start_y_norm": 0.0925,
+        "end_x_norm": 0.6759,
+        "end_y_norm": 0.5613
+      }
+    },
+    {
+      "match_id": 114,
+      "map_id": 16,
+      "map_name": "Rondo",
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "winner_team_id": 306,
+      "winner_team_name": "Pinja",
+      "plane_path": {
+        "start_x_norm": -0.2005,
+        "start_y_norm": 0.5965,
+        "end_x_norm": 0.8619,
+        "end_y_norm": 0.5429
+      }
+    },
+    {
+      "match_id": 115,
+      "map_id": 12,
+      "map_name": "Erangel",
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "winner_team_id": 2400,
+      "winner_team_name": "OpenText",
+      "plane_path": {
+        "start_x_norm": 0.7831,
+        "start_y_norm": -0.148,
+        "end_x_norm": 0.4397,
+        "end_y_norm": 0.7046
+      }
+    },
+    {
+      "match_id": 116,
+      "map_id": 12,
+      "map_name": "Erangel",
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "winner_team_id": 2396,
+      "winner_team_name": "atFlow",
+      "plane_path": {
+        "start_x_norm": 1.1832,
+        "start_y_norm": 0.3177,
+        "end_x_norm": 0.239,
+        "end_y_norm": 0.602
+      }
     }
   ],
   "landings": [
@@ -24774,6 +24838,3486 @@ const MATCH_DATA = {
           "y_norm": 0.5763,
           "x_px": 3058,
           "y_px": 2213
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2384,
+      "placement": 1,
+      "kills": 7,
+      "players_landed": 4,
+      "x_norm": 0.4623,
+      "y_norm": 0.4119,
+      "x_px": 1775,
+      "y_px": 1582,
+      "players": [
+        {
+          "player_id": 7734,
+          "pubg_name": "salampah",
+          "x_norm": 0.4818,
+          "y_norm": 0.4198,
+          "x_px": 1850,
+          "y_px": 1612
+        },
+        {
+          "player_id": 7735,
+          "pubg_name": "ch33ts",
+          "x_norm": 0.4515,
+          "y_norm": 0.4206,
+          "x_px": 1734,
+          "y_px": 1615
+        },
+        {
+          "player_id": 7736,
+          "pubg_name": "InsaneAsylum",
+          "x_norm": 0.4688,
+          "y_norm": 0.3872,
+          "x_px": 1800,
+          "y_px": 1487
+        },
+        {
+          "player_id": 7737,
+          "pubg_name": "bob_hans",
+          "x_norm": 0.4469,
+          "y_norm": 0.4198,
+          "x_px": 1716,
+          "y_px": 1612
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2416,
+      "placement": 2,
+      "kills": 5,
+      "players_landed": 4,
+      "x_norm": 0.3913,
+      "y_norm": 0.4267,
+      "x_px": 1503,
+      "y_px": 1638,
+      "players": [
+        {
+          "player_id": 7776,
+          "pubg_name": "AntiReal",
+          "x_norm": 0.3184,
+          "y_norm": 0.3689,
+          "x_px": 1223,
+          "y_px": 1417
+        },
+        {
+          "player_id": 7777,
+          "pubg_name": "Epitus",
+          "x_norm": 0.4422,
+          "y_norm": 0.3994,
+          "x_px": 1698,
+          "y_px": 1534
+        },
+        {
+          "player_id": 7778,
+          "pubg_name": "finpara66",
+          "x_norm": 0.4078,
+          "y_norm": 0.4613,
+          "x_px": 1566,
+          "y_px": 1772
+        },
+        {
+          "player_id": 7779,
+          "pubg_name": "KuiQula",
+          "x_norm": 0.3968,
+          "y_norm": 0.4771,
+          "x_px": 1524,
+          "y_px": 1832
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2372,
+      "placement": 3,
+      "kills": 4,
+      "players_landed": 4,
+      "x_norm": 0.3303,
+      "y_norm": 0.3175,
+      "x_px": 1268,
+      "y_px": 1219,
+      "players": [
+        {
+          "player_id": 7784,
+          "pubg_name": "Herra47",
+          "x_norm": 0.3486,
+          "y_norm": 0.2935,
+          "x_px": 1339,
+          "y_px": 1127
+        },
+        {
+          "player_id": 7785,
+          "pubg_name": "VituixMan_",
+          "x_norm": 0.3223,
+          "y_norm": 0.3423,
+          "x_px": 1238,
+          "y_px": 1315
+        },
+        {
+          "player_id": 7786,
+          "pubg_name": "Hemis85",
+          "x_norm": 0.3404,
+          "y_norm": 0.2947,
+          "x_px": 1307,
+          "y_px": 1132
+        },
+        {
+          "player_id": 7787,
+          "pubg_name": "Pr0us",
+          "x_norm": 0.3097,
+          "y_norm": 0.3396,
+          "x_px": 1189,
+          "y_px": 1304
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 19,
+      "placement": 4,
+      "kills": 8,
+      "players_landed": 4,
+      "x_norm": 0.7817,
+      "y_norm": 0.4274,
+      "x_px": 3002,
+      "y_px": 1641,
+      "players": [
+        {
+          "player_id": 7756,
+          "pubg_name": "Metsaroll",
+          "x_norm": 0.7744,
+          "y_norm": 0.4192,
+          "x_px": 2974,
+          "y_px": 1610
+        },
+        {
+          "player_id": 7757,
+          "pubg_name": "LordNyr",
+          "x_norm": 0.7622,
+          "y_norm": 0.4346,
+          "x_px": 2927,
+          "y_px": 1669
+        },
+        {
+          "player_id": 7758,
+          "pubg_name": "GYROFIN",
+          "x_norm": 0.7927,
+          "y_norm": 0.438,
+          "x_px": 3044,
+          "y_px": 1682
+        },
+        {
+          "player_id": 7759,
+          "pubg_name": "Johnny-Two-Times",
+          "x_norm": 0.7977,
+          "y_norm": 0.4178,
+          "x_px": 3063,
+          "y_px": 1604
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2377,
+      "placement": 5,
+      "kills": 3,
+      "players_landed": 4,
+      "x_norm": 0.1242,
+      "y_norm": 0.2192,
+      "x_px": 477,
+      "y_px": 842,
+      "players": [
+        {
+          "player_id": 7772,
+          "pubg_name": "Blooffi",
+          "x_norm": 0.1253,
+          "y_norm": 0.2189,
+          "x_px": 481,
+          "y_px": 840
+        },
+        {
+          "player_id": 7773,
+          "pubg_name": "Raaski_",
+          "x_norm": 0.1194,
+          "y_norm": 0.2163,
+          "x_px": 458,
+          "y_px": 831
+        },
+        {
+          "player_id": 7774,
+          "pubg_name": "Perat0r",
+          "x_norm": 0.1191,
+          "y_norm": 0.2243,
+          "x_px": 458,
+          "y_px": 861
+        },
+        {
+          "player_id": 7775,
+          "pubg_name": "6pak",
+          "x_norm": 0.133,
+          "y_norm": 0.2172,
+          "x_px": 511,
+          "y_px": 834
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 1034,
+      "placement": 6,
+      "kills": 9,
+      "players_landed": 4,
+      "x_norm": 0.3045,
+      "y_norm": 0.1201,
+      "x_px": 1169,
+      "y_px": 461,
+      "players": [
+        {
+          "player_id": 7722,
+          "pubg_name": "Pena3000",
+          "x_norm": 0.2774,
+          "y_norm": 0.1074,
+          "x_px": 1065,
+          "y_px": 412
+        },
+        {
+          "player_id": 7723,
+          "pubg_name": "Romisame",
+          "x_norm": 0.3365,
+          "y_norm": 0.1327,
+          "x_px": 1292,
+          "y_px": 510
+        },
+        {
+          "player_id": 7724,
+          "pubg_name": "MahtiMarsalkka",
+          "x_norm": 0.2906,
+          "y_norm": 0.1319,
+          "x_px": 1116,
+          "y_px": 506
+        },
+        {
+          "player_id": 7725,
+          "pubg_name": "Tuloinen",
+          "x_norm": 0.3136,
+          "y_norm": 0.1083,
+          "x_px": 1204,
+          "y_px": 416
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2390,
+      "placement": 7,
+      "kills": 6,
+      "players_landed": 4,
+      "x_norm": 0.6463,
+      "y_norm": 0.6807,
+      "x_px": 2482,
+      "y_px": 2614,
+      "players": [
+        {
+          "player_id": 7768,
+          "pubg_name": "Not_9",
+          "x_norm": 0.6826,
+          "y_norm": 0.6594,
+          "x_px": 2621,
+          "y_px": 2532
+        },
+        {
+          "player_id": 7769,
+          "pubg_name": "delzic",
+          "x_norm": 0.6003,
+          "y_norm": 0.6971,
+          "x_px": 2305,
+          "y_px": 2677
+        },
+        {
+          "player_id": 7770,
+          "pubg_name": "seven_dc",
+          "x_norm": 0.6099,
+          "y_norm": 0.6721,
+          "x_px": 2342,
+          "y_px": 2581
+        },
+        {
+          "player_id": 7771,
+          "pubg_name": "codesnae",
+          "x_norm": 0.6924,
+          "y_norm": 0.6942,
+          "x_px": 2659,
+          "y_px": 2666
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2400,
+      "placement": 8,
+      "kills": 9,
+      "players_landed": 4,
+      "x_norm": 0.5967,
+      "y_norm": 0.4606,
+      "x_px": 2291,
+      "y_px": 1769,
+      "players": [
+        {
+          "player_id": 7780,
+          "pubg_name": "hawktub",
+          "x_norm": 0.593,
+          "y_norm": 0.4598,
+          "x_px": 2277,
+          "y_px": 1765
+        },
+        {
+          "player_id": 7781,
+          "pubg_name": "Sykomayn",
+          "x_norm": 0.592,
+          "y_norm": 0.4672,
+          "x_px": 2273,
+          "y_px": 1794
+        },
+        {
+          "player_id": 7782,
+          "pubg_name": "Moenster_",
+          "x_norm": 0.5949,
+          "y_norm": 0.4528,
+          "x_px": 2284,
+          "y_px": 1739
+        },
+        {
+          "player_id": 7783,
+          "pubg_name": "FO110K",
+          "x_norm": 0.607,
+          "y_norm": 0.4626,
+          "x_px": 2331,
+          "y_px": 1776
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 66,
+      "placement": 9,
+      "kills": 5,
+      "players_landed": 4,
+      "x_norm": 0.5987,
+      "y_norm": 0.6174,
+      "x_px": 2299,
+      "y_px": 2371,
+      "players": [
+        {
+          "player_id": 7752,
+          "pubg_name": "Kaahari",
+          "x_norm": 0.5936,
+          "y_norm": 0.5719,
+          "x_px": 2280,
+          "y_px": 2196
+        },
+        {
+          "player_id": 7753,
+          "pubg_name": "Slobby_",
+          "x_norm": 0.6017,
+          "y_norm": 0.6275,
+          "x_px": 2311,
+          "y_px": 2409
+        },
+        {
+          "player_id": 7754,
+          "pubg_name": "Aicer",
+          "x_norm": 0.5839,
+          "y_norm": 0.6401,
+          "x_px": 2242,
+          "y_px": 2458
+        },
+        {
+          "player_id": 7755,
+          "pubg_name": "MAdF1N",
+          "x_norm": 0.6154,
+          "y_norm": 0.6303,
+          "x_px": 2363,
+          "y_px": 2420
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2345,
+      "placement": 10,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.2967,
+      "y_norm": 0.5673,
+      "x_px": 1139,
+      "y_px": 2178,
+      "players": [
+        {
+          "player_id": 7730,
+          "pubg_name": "JuxuPuxu",
+          "x_norm": 0.2913,
+          "y_norm": 0.5904,
+          "x_px": 1118,
+          "y_px": 2267
+        },
+        {
+          "player_id": 7731,
+          "pubg_name": "kesaesa",
+          "x_norm": 0.2801,
+          "y_norm": 0.5746,
+          "x_px": 1076,
+          "y_px": 2206
+        },
+        {
+          "player_id": 7732,
+          "pubg_name": "azgah",
+          "x_norm": 0.2773,
+          "y_norm": 0.5701,
+          "x_px": 1065,
+          "y_px": 2189
+        },
+        {
+          "player_id": 7733,
+          "pubg_name": "RedLine5544",
+          "x_norm": 0.3383,
+          "y_norm": 0.534,
+          "x_px": 1299,
+          "y_px": 2051
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2381,
+      "placement": 11,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.6948,
+      "y_norm": 0.4961,
+      "x_px": 2668,
+      "y_px": 1905,
+      "players": [
+        {
+          "player_id": 7764,
+          "pubg_name": "Hwak",
+          "x_norm": 0.6778,
+          "y_norm": 0.4816,
+          "x_px": 2603,
+          "y_px": 1849
+        },
+        {
+          "player_id": 7765,
+          "pubg_name": "LanausKone",
+          "x_norm": 0.6635,
+          "y_norm": 0.5418,
+          "x_px": 2548,
+          "y_px": 2081
+        },
+        {
+          "player_id": 7766,
+          "pubg_name": "Mazena",
+          "x_norm": 0.7713,
+          "y_norm": 0.4627,
+          "x_px": 2962,
+          "y_px": 1777
+        },
+        {
+          "player_id": 7767,
+          "pubg_name": "keppikeijo",
+          "x_norm": 0.6667,
+          "y_norm": 0.4982,
+          "x_px": 2560,
+          "y_px": 1913
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2439,
+      "placement": 12,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.5755,
+      "y_norm": 0.4455,
+      "x_px": 2210,
+      "y_px": 1711,
+      "players": [
+        {
+          "player_id": 7738,
+          "pubg_name": "koristi",
+          "x_norm": 0.575,
+          "y_norm": 0.439,
+          "x_px": 2208,
+          "y_px": 1686
+        },
+        {
+          "player_id": 7739,
+          "pubg_name": "roskakuski",
+          "x_norm": 0.5746,
+          "y_norm": 0.4498,
+          "x_px": 2206,
+          "y_px": 1727
+        },
+        {
+          "player_id": 7740,
+          "pubg_name": "Jassi__",
+          "x_norm": 0.5785,
+          "y_norm": 0.4407,
+          "x_px": 2221,
+          "y_px": 1692
+        },
+        {
+          "player_id": 7741,
+          "pubg_name": "Yes_Copyleft",
+          "x_norm": 0.5737,
+          "y_norm": 0.4524,
+          "x_px": 2203,
+          "y_px": 1737
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2367,
+      "placement": 13,
+      "kills": 1,
+      "players_landed": 3,
+      "x_norm": 0.8029,
+      "y_norm": 0.6146,
+      "x_px": 3083,
+      "y_px": 2360,
+      "players": [
+        {
+          "player_id": 7719,
+          "pubg_name": "EliasJPD",
+          "x_norm": 0.7994,
+          "y_norm": 0.5974,
+          "x_px": 3070,
+          "y_px": 2294
+        },
+        {
+          "player_id": 7720,
+          "pubg_name": "mikza",
+          "x_norm": 0.8008,
+          "y_norm": 0.6218,
+          "x_px": 3075,
+          "y_px": 2388
+        },
+        {
+          "player_id": 7721,
+          "pubg_name": "MaitomiesDan",
+          "x_norm": 0.8086,
+          "y_norm": 0.6246,
+          "x_px": 3105,
+          "y_px": 2399
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2394,
+      "placement": 14,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.5962,
+      "y_norm": 0.3094,
+      "x_px": 2290,
+      "y_px": 1188,
+      "players": [
+        {
+          "player_id": 7726,
+          "pubg_name": "VonHu0h",
+          "x_norm": 0.6274,
+          "y_norm": 0.3071,
+          "x_px": 2409,
+          "y_px": 1179
+        },
+        {
+          "player_id": 7727,
+          "pubg_name": "Joorppi",
+          "x_norm": 0.5135,
+          "y_norm": 0.2819,
+          "x_px": 1972,
+          "y_px": 1082
+        },
+        {
+          "player_id": 7728,
+          "pubg_name": "rippenroppen",
+          "x_norm": 0.6516,
+          "y_norm": 0.3235,
+          "x_px": 2502,
+          "y_px": 1242
+        },
+        {
+          "player_id": 7729,
+          "pubg_name": "garudi",
+          "x_norm": 0.5925,
+          "y_norm": 0.3253,
+          "x_px": 2275,
+          "y_px": 1249
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 749,
+      "placement": 15,
+      "kills": 1,
+      "players_landed": 3,
+      "x_norm": 0.1991,
+      "y_norm": 0.4161,
+      "x_px": 764,
+      "y_px": 1598,
+      "players": [
+        {
+          "player_id": 7749,
+          "pubg_name": "Takajeejee",
+          "x_norm": 0.2032,
+          "y_norm": 0.4322,
+          "x_px": 780,
+          "y_px": 1660
+        },
+        {
+          "player_id": 7750,
+          "pubg_name": "Ortixeri",
+          "x_norm": 0.2032,
+          "y_norm": 0.4159,
+          "x_px": 780,
+          "y_px": 1597
+        },
+        {
+          "player_id": 7751,
+          "pubg_name": "M4rjis",
+          "x_norm": 0.1908,
+          "y_norm": 0.4001,
+          "x_px": 733,
+          "y_px": 1536
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2382,
+      "placement": 16,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.1041,
+      "y_norm": 0.373,
+      "x_px": 400,
+      "y_px": 1432,
+      "players": [
+        {
+          "player_id": 7760,
+          "pubg_name": "Marlemshake",
+          "x_norm": 0.1243,
+          "y_norm": 0.3563,
+          "x_px": 477,
+          "y_px": 1368
+        },
+        {
+          "player_id": 7761,
+          "pubg_name": "Errno452",
+          "x_norm": 0.1162,
+          "y_norm": 0.4354,
+          "x_px": 446,
+          "y_px": 1672
+        },
+        {
+          "player_id": 7762,
+          "pubg_name": "Keljukossi",
+          "x_norm": 0.0924,
+          "y_norm": 0.3018,
+          "x_px": 355,
+          "y_px": 1159
+        },
+        {
+          "player_id": 7763,
+          "pubg_name": "perusmaukka",
+          "x_norm": 0.0833,
+          "y_norm": 0.3986,
+          "x_px": 320,
+          "y_px": 1531
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 2396,
+      "placement": 17,
+      "kills": 0,
+      "players_landed": 3,
+      "x_norm": 0.4515,
+      "y_norm": 0.3171,
+      "x_px": 1734,
+      "y_px": 1218,
+      "players": [
+        {
+          "player_id": 7746,
+          "pubg_name": "i-Trap",
+          "x_norm": 0.4559,
+          "y_norm": 0.2674,
+          "x_px": 1751,
+          "y_px": 1027
+        },
+        {
+          "player_id": 7747,
+          "pubg_name": "entoz",
+          "x_norm": 0.4268,
+          "y_norm": 0.355,
+          "x_px": 1639,
+          "y_px": 1363
+        },
+        {
+          "player_id": 7748,
+          "pubg_name": "CryptHash",
+          "x_norm": 0.4716,
+          "y_norm": 0.3289,
+          "x_px": 1811,
+          "y_px": 1263
+        }
+      ]
+    },
+    {
+      "match_id": 113,
+      "session_name": "Day 8",
+      "match_number": 1,
+      "played_at": "2026-11-02T18:02:40.000Z",
+      "map_id": 16,
+      "team_id": 306,
+      "placement": 18,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.7122,
+      "y_norm": 0.3807,
+      "x_px": 2735,
+      "y_px": 1462,
+      "players": [
+        {
+          "player_id": 7742,
+          "pubg_name": "Wirtane",
+          "x_norm": 0.7178,
+          "y_norm": 0.3835,
+          "x_px": 2756,
+          "y_px": 1473
+        },
+        {
+          "player_id": 7743,
+          "pubg_name": "Tiger-Fi",
+          "x_norm": 0.7079,
+          "y_norm": 0.3837,
+          "x_px": 2718,
+          "y_px": 1474
+        },
+        {
+          "player_id": 7744,
+          "pubg_name": "Targaryen73",
+          "x_norm": 0.7084,
+          "y_norm": 0.3791,
+          "x_px": 2720,
+          "y_px": 1456
+        },
+        {
+          "player_id": 7745,
+          "pubg_name": "osmoo",
+          "x_norm": 0.7149,
+          "y_norm": 0.3766,
+          "x_px": 2745,
+          "y_px": 1446
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 306,
+      "placement": 1,
+      "kills": 12,
+      "players_landed": 4,
+      "x_norm": 0.7176,
+      "y_norm": 0.3795,
+      "x_px": 2755,
+      "y_px": 1457,
+      "players": [
+        {
+          "player_id": 7851,
+          "pubg_name": "osmoo",
+          "x_norm": 0.7233,
+          "y_norm": 0.3813,
+          "x_px": 2777,
+          "y_px": 1464
+        },
+        {
+          "player_id": 7852,
+          "pubg_name": "Wirtane",
+          "x_norm": 0.7193,
+          "y_norm": 0.3842,
+          "x_px": 2762,
+          "y_px": 1475
+        },
+        {
+          "player_id": 7853,
+          "pubg_name": "Targaryen73",
+          "x_norm": 0.7202,
+          "y_norm": 0.3685,
+          "x_px": 2766,
+          "y_px": 1415
+        },
+        {
+          "player_id": 7854,
+          "pubg_name": "Tiger-Fi",
+          "x_norm": 0.7074,
+          "y_norm": 0.384,
+          "x_px": 2716,
+          "y_px": 1475
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2400,
+      "placement": 2,
+      "kills": 9,
+      "players_landed": 4,
+      "x_norm": 0.5981,
+      "y_norm": 0.464,
+      "x_px": 2297,
+      "y_px": 1782,
+      "players": [
+        {
+          "player_id": 7847,
+          "pubg_name": "Moenster_",
+          "x_norm": 0.5918,
+          "y_norm": 0.459,
+          "x_px": 2273,
+          "y_px": 1763
+        },
+        {
+          "player_id": 7848,
+          "pubg_name": "Sykomayn",
+          "x_norm": 0.5972,
+          "y_norm": 0.461,
+          "x_px": 2293,
+          "y_px": 1770
+        },
+        {
+          "player_id": 7849,
+          "pubg_name": "FO110K",
+          "x_norm": 0.6035,
+          "y_norm": 0.4659,
+          "x_px": 2317,
+          "y_px": 1789
+        },
+        {
+          "player_id": 7850,
+          "pubg_name": "hawktub",
+          "x_norm": 0.5999,
+          "y_norm": 0.4702,
+          "x_px": 2303,
+          "y_px": 1806
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2382,
+      "placement": 3,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.8954,
+      "y_norm": 0.41,
+      "x_px": 3439,
+      "y_px": 1574,
+      "players": [
+        {
+          "player_id": 7792,
+          "pubg_name": "Keljukossi",
+          "x_norm": 0.9115,
+          "y_norm": 0.4105,
+          "x_px": 3500,
+          "y_px": 1576
+        },
+        {
+          "player_id": 7793,
+          "pubg_name": "Errno452",
+          "x_norm": 0.9097,
+          "y_norm": 0.4143,
+          "x_px": 3493,
+          "y_px": 1591
+        },
+        {
+          "player_id": 7794,
+          "pubg_name": "perusmaukka",
+          "x_norm": 0.9159,
+          "y_norm": 0.4232,
+          "x_px": 3517,
+          "y_px": 1625
+        },
+        {
+          "player_id": 7795,
+          "pubg_name": "Marlemshake",
+          "x_norm": 0.8447,
+          "y_norm": 0.3919,
+          "x_px": 3244,
+          "y_px": 1505
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 749,
+      "placement": 4,
+      "kills": 5,
+      "players_landed": 4,
+      "x_norm": 0.1989,
+      "y_norm": 0.4336,
+      "x_px": 764,
+      "y_px": 1665,
+      "players": [
+        {
+          "player_id": 7796,
+          "pubg_name": "Ortixeri",
+          "x_norm": 0.2019,
+          "y_norm": 0.4173,
+          "x_px": 775,
+          "y_px": 1602
+        },
+        {
+          "player_id": 7797,
+          "pubg_name": "M4rjis",
+          "x_norm": 0.1797,
+          "y_norm": 0.4585,
+          "x_px": 690,
+          "y_px": 1761
+        },
+        {
+          "player_id": 7798,
+          "pubg_name": "KEKSTADT",
+          "x_norm": 0.211,
+          "y_norm": 0.4261,
+          "x_px": 810,
+          "y_px": 1636
+        },
+        {
+          "player_id": 7799,
+          "pubg_name": "Takajeejee",
+          "x_norm": 0.2031,
+          "y_norm": 0.4327,
+          "x_px": 780,
+          "y_px": 1662
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2372,
+      "placement": 5,
+      "kills": 6,
+      "players_landed": 4,
+      "x_norm": 0.3133,
+      "y_norm": 0.363,
+      "x_px": 1203,
+      "y_px": 1394,
+      "players": [
+        {
+          "player_id": 7843,
+          "pubg_name": "Herra47",
+          "x_norm": 0.3257,
+          "y_norm": 0.3519,
+          "x_px": 1251,
+          "y_px": 1351
+        },
+        {
+          "player_id": 7844,
+          "pubg_name": "VituixMan_",
+          "x_norm": 0.296,
+          "y_norm": 0.3865,
+          "x_px": 1137,
+          "y_px": 1484
+        },
+        {
+          "player_id": 7845,
+          "pubg_name": "Hemis85",
+          "x_norm": 0.3139,
+          "y_norm": 0.3544,
+          "x_px": 1205,
+          "y_px": 1361
+        },
+        {
+          "player_id": 7846,
+          "pubg_name": "Pr0us",
+          "x_norm": 0.3174,
+          "y_norm": 0.3592,
+          "x_px": 1219,
+          "y_px": 1379
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2367,
+      "placement": 6,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.8142,
+      "y_norm": 0.6094,
+      "x_px": 3127,
+      "y_px": 2340,
+      "players": [
+        {
+          "player_id": 7807,
+          "pubg_name": "mikza",
+          "x_norm": 0.8202,
+          "y_norm": 0.626,
+          "x_px": 3149,
+          "y_px": 2404
+        },
+        {
+          "player_id": 7808,
+          "pubg_name": "MaitomiesDan",
+          "x_norm": 0.8075,
+          "y_norm": 0.6205,
+          "x_px": 3101,
+          "y_px": 2383
+        },
+        {
+          "player_id": 7809,
+          "pubg_name": "EliasJPD",
+          "x_norm": 0.8002,
+          "y_norm": 0.5971,
+          "x_px": 3073,
+          "y_px": 2293
+        },
+        {
+          "player_id": 7810,
+          "pubg_name": "Mcfleezy",
+          "x_norm": 0.8289,
+          "y_norm": 0.594,
+          "x_px": 3183,
+          "y_px": 2281
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 1034,
+      "placement": 7,
+      "kills": 3,
+      "players_landed": 4,
+      "x_norm": 0.1792,
+      "y_norm": 0.7364,
+      "x_px": 688,
+      "y_px": 2828,
+      "players": [
+        {
+          "player_id": 7831,
+          "pubg_name": "Tuloinen",
+          "x_norm": 0.1835,
+          "y_norm": 0.762,
+          "x_px": 705,
+          "y_px": 2926
+        },
+        {
+          "player_id": 7832,
+          "pubg_name": "Pena3000",
+          "x_norm": 0.1895,
+          "y_norm": 0.7668,
+          "x_px": 728,
+          "y_px": 2945
+        },
+        {
+          "player_id": 7833,
+          "pubg_name": "MahtiMarsalkka",
+          "x_norm": 0.1675,
+          "y_norm": 0.7129,
+          "x_px": 643,
+          "y_px": 2738
+        },
+        {
+          "player_id": 7834,
+          "pubg_name": "Romisame",
+          "x_norm": 0.1763,
+          "y_norm": 0.7039,
+          "x_px": 677,
+          "y_px": 2703
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2396,
+      "placement": 8,
+      "kills": 5,
+      "players_landed": 3,
+      "x_norm": 0.4469,
+      "y_norm": 0.7623,
+      "x_px": 1716,
+      "y_px": 2927,
+      "players": [
+        {
+          "player_id": 7800,
+          "pubg_name": "i-Trap",
+          "x_norm": 0.4416,
+          "y_norm": 0.7755,
+          "x_px": 1696,
+          "y_px": 2978
+        },
+        {
+          "player_id": 7801,
+          "pubg_name": "CryptHash",
+          "x_norm": 0.4506,
+          "y_norm": 0.7438,
+          "x_px": 1730,
+          "y_px": 2856
+        },
+        {
+          "player_id": 7802,
+          "pubg_name": "entoz",
+          "x_norm": 0.4486,
+          "y_norm": 0.7677,
+          "x_px": 1723,
+          "y_px": 2948
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2377,
+      "placement": 9,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.1155,
+      "y_norm": 0.622,
+      "x_px": 444,
+      "y_px": 2388,
+      "players": [
+        {
+          "player_id": 7827,
+          "pubg_name": "Blooffi",
+          "x_norm": 0.1011,
+          "y_norm": 0.6134,
+          "x_px": 388,
+          "y_px": 2355
+        },
+        {
+          "player_id": 7828,
+          "pubg_name": "Perat0r",
+          "x_norm": 0.1249,
+          "y_norm": 0.5878,
+          "x_px": 479,
+          "y_px": 2257
+        },
+        {
+          "player_id": 7829,
+          "pubg_name": "6pak",
+          "x_norm": 0.1235,
+          "y_norm": 0.6289,
+          "x_px": 474,
+          "y_px": 2415
+        },
+        {
+          "player_id": 7830,
+          "pubg_name": "Raaski_",
+          "x_norm": 0.1126,
+          "y_norm": 0.6578,
+          "x_px": 432,
+          "y_px": 2526
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2416,
+      "placement": 10,
+      "kills": 9,
+      "players_landed": 4,
+      "x_norm": 0.4051,
+      "y_norm": 0.4486,
+      "x_px": 1556,
+      "y_px": 1723,
+      "players": [
+        {
+          "player_id": 7839,
+          "pubg_name": "Epitus",
+          "x_norm": 0.4361,
+          "y_norm": 0.4348,
+          "x_px": 1675,
+          "y_px": 1670
+        },
+        {
+          "player_id": 7840,
+          "pubg_name": "KuiQula",
+          "x_norm": 0.4002,
+          "y_norm": 0.4798,
+          "x_px": 1537,
+          "y_px": 1843
+        },
+        {
+          "player_id": 7841,
+          "pubg_name": "finpara66",
+          "x_norm": 0.4095,
+          "y_norm": 0.4579,
+          "x_px": 1573,
+          "y_px": 1758
+        },
+        {
+          "player_id": 7842,
+          "pubg_name": "AntiReal",
+          "x_norm": 0.3745,
+          "y_norm": 0.4217,
+          "x_px": 1438,
+          "y_px": 1620
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2394,
+      "placement": 11,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.8478,
+      "y_norm": 0.6943,
+      "x_px": 3256,
+      "y_px": 2666,
+      "players": [
+        {
+          "player_id": 7788,
+          "pubg_name": "Joorppi",
+          "x_norm": 0.8548,
+          "y_norm": 0.7119,
+          "x_px": 3282,
+          "y_px": 2734
+        },
+        {
+          "player_id": 7789,
+          "pubg_name": "VonHu0h",
+          "x_norm": 0.8402,
+          "y_norm": 0.7071,
+          "x_px": 3226,
+          "y_px": 2715
+        },
+        {
+          "player_id": 7790,
+          "pubg_name": "rippenroppen",
+          "x_norm": 0.8758,
+          "y_norm": 0.6996,
+          "x_px": 3363,
+          "y_px": 2686
+        },
+        {
+          "player_id": 7791,
+          "pubg_name": "garudi",
+          "x_norm": 0.8207,
+          "y_norm": 0.6584,
+          "x_px": 3151,
+          "y_px": 2528
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2439,
+      "placement": 12,
+      "kills": 5,
+      "players_landed": 4,
+      "x_norm": 0.3704,
+      "y_norm": 0.5502,
+      "x_px": 1422,
+      "y_px": 2113,
+      "players": [
+        {
+          "player_id": 7823,
+          "pubg_name": "roskakuski",
+          "x_norm": 0.3788,
+          "y_norm": 0.5663,
+          "x_px": 1455,
+          "y_px": 2175
+        },
+        {
+          "player_id": 7824,
+          "pubg_name": "Yes_Copyleft",
+          "x_norm": 0.3787,
+          "y_norm": 0.5386,
+          "x_px": 1454,
+          "y_px": 2068
+        },
+        {
+          "player_id": 7825,
+          "pubg_name": "Jassi__",
+          "x_norm": 0.3553,
+          "y_norm": 0.5438,
+          "x_px": 1364,
+          "y_px": 2088
+        },
+        {
+          "player_id": 7826,
+          "pubg_name": "koristi",
+          "x_norm": 0.3687,
+          "y_norm": 0.5519,
+          "x_px": 1416,
+          "y_px": 2119
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 19,
+      "placement": 13,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.7825,
+      "y_norm": 0.428,
+      "x_px": 3005,
+      "y_px": 1644,
+      "players": [
+        {
+          "player_id": 7811,
+          "pubg_name": "Johnny-Two-Times",
+          "x_norm": 0.8031,
+          "y_norm": 0.4182,
+          "x_px": 3084,
+          "y_px": 1606
+        },
+        {
+          "player_id": 7812,
+          "pubg_name": "GYROFIN",
+          "x_norm": 0.7958,
+          "y_norm": 0.4409,
+          "x_px": 3056,
+          "y_px": 1693
+        },
+        {
+          "player_id": 7813,
+          "pubg_name": "LordNyr",
+          "x_norm": 0.7538,
+          "y_norm": 0.4314,
+          "x_px": 2895,
+          "y_px": 1657
+        },
+        {
+          "player_id": 7814,
+          "pubg_name": "Metsaroll",
+          "x_norm": 0.7775,
+          "y_norm": 0.4216,
+          "x_px": 2986,
+          "y_px": 1619
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2390,
+      "placement": 14,
+      "kills": 4,
+      "players_landed": 4,
+      "x_norm": 0.6395,
+      "y_norm": 0.6865,
+      "x_px": 2456,
+      "y_px": 2636,
+      "players": [
+        {
+          "player_id": 7815,
+          "pubg_name": "codesnae",
+          "x_norm": 0.6919,
+          "y_norm": 0.6961,
+          "x_px": 2657,
+          "y_px": 2673
+        },
+        {
+          "player_id": 7816,
+          "pubg_name": "Not_9",
+          "x_norm": 0.6482,
+          "y_norm": 0.6613,
+          "x_px": 2489,
+          "y_px": 2540
+        },
+        {
+          "player_id": 7817,
+          "pubg_name": "seven_dc",
+          "x_norm": 0.5966,
+          "y_norm": 0.6654,
+          "x_px": 2291,
+          "y_px": 2555
+        },
+        {
+          "player_id": 7818,
+          "pubg_name": "delzic",
+          "x_norm": 0.6213,
+          "y_norm": 0.723,
+          "x_px": 2386,
+          "y_px": 2776
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2381,
+      "placement": 15,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.6897,
+      "y_norm": 0.5016,
+      "x_px": 2648,
+      "y_px": 1926,
+      "players": [
+        {
+          "player_id": 7855,
+          "pubg_name": "Mazena",
+          "x_norm": 0.7709,
+          "y_norm": 0.462,
+          "x_px": 2960,
+          "y_px": 1774
+        },
+        {
+          "player_id": 7856,
+          "pubg_name": "keppikeijo",
+          "x_norm": 0.6486,
+          "y_norm": 0.5157,
+          "x_px": 2491,
+          "y_px": 1980
+        },
+        {
+          "player_id": 7857,
+          "pubg_name": "Hwak",
+          "x_norm": 0.6795,
+          "y_norm": 0.4838,
+          "x_px": 2609,
+          "y_px": 1858
+        },
+        {
+          "player_id": 7858,
+          "pubg_name": "LanausKone",
+          "x_norm": 0.6597,
+          "y_norm": 0.545,
+          "x_px": 2533,
+          "y_px": 2093
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 66,
+      "placement": 16,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.6021,
+      "y_norm": 0.6183,
+      "x_px": 2312,
+      "y_px": 2374,
+      "players": [
+        {
+          "player_id": 7835,
+          "pubg_name": "Kaahari",
+          "x_norm": 0.5947,
+          "y_norm": 0.5746,
+          "x_px": 2284,
+          "y_px": 2207
+        },
+        {
+          "player_id": 7836,
+          "pubg_name": "MAdF1N",
+          "x_norm": 0.6153,
+          "y_norm": 0.6298,
+          "x_px": 2363,
+          "y_px": 2418
+        },
+        {
+          "player_id": 7837,
+          "pubg_name": "Slobby_",
+          "x_norm": 0.6055,
+          "y_norm": 0.6323,
+          "x_px": 2325,
+          "y_px": 2428
+        },
+        {
+          "player_id": 7838,
+          "pubg_name": "Aicer",
+          "x_norm": 0.5929,
+          "y_norm": 0.6366,
+          "x_px": 2277,
+          "y_px": 2445
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2345,
+      "placement": 17,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.2551,
+      "y_norm": 0.6065,
+      "x_px": 980,
+      "y_px": 2329,
+      "players": [
+        {
+          "player_id": 7803,
+          "pubg_name": "azgah",
+          "x_norm": 0.2633,
+          "y_norm": 0.6255,
+          "x_px": 1011,
+          "y_px": 2402
+        },
+        {
+          "player_id": 7804,
+          "pubg_name": "RedLine5544",
+          "x_norm": 0.2492,
+          "y_norm": 0.6186,
+          "x_px": 957,
+          "y_px": 2375
+        },
+        {
+          "player_id": 7805,
+          "pubg_name": "JuxuPuxu",
+          "x_norm": 0.28,
+          "y_norm": 0.5792,
+          "x_px": 1075,
+          "y_px": 2224
+        },
+        {
+          "player_id": 7806,
+          "pubg_name": "kesaesa",
+          "x_norm": 0.2279,
+          "y_norm": 0.6027,
+          "x_px": 875,
+          "y_px": 2314
+        }
+      ]
+    },
+    {
+      "match_id": 114,
+      "session_name": "Day 8",
+      "match_number": 2,
+      "played_at": "2026-11-02T18:41:32.000Z",
+      "map_id": 16,
+      "team_id": 2384,
+      "placement": 18,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.4568,
+      "y_norm": 0.3908,
+      "x_px": 1754,
+      "y_px": 1501,
+      "players": [
+        {
+          "player_id": 7819,
+          "pubg_name": "bob_hans",
+          "x_norm": 0.4229,
+          "y_norm": 0.3876,
+          "x_px": 1624,
+          "y_px": 1489
+        },
+        {
+          "player_id": 7820,
+          "pubg_name": "salampah",
+          "x_norm": 0.4912,
+          "y_norm": 0.389,
+          "x_px": 1886,
+          "y_px": 1494
+        },
+        {
+          "player_id": 7821,
+          "pubg_name": "ch33ts",
+          "x_norm": 0.4442,
+          "y_norm": 0.4009,
+          "x_px": 1706,
+          "y_px": 1539
+        },
+        {
+          "player_id": 7822,
+          "pubg_name": "InsaneAsylum",
+          "x_norm": 0.4689,
+          "y_norm": 0.3858,
+          "x_px": 1801,
+          "y_px": 1481
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2400,
+      "placement": 1,
+      "kills": 20,
+      "players_landed": 4,
+      "x_norm": 0.4336,
+      "y_norm": 0.3839,
+      "x_px": 1665,
+      "y_px": 1474,
+      "players": [
+        {
+          "player_id": 7918,
+          "pubg_name": "Sykomayn",
+          "x_norm": 0.4126,
+          "y_norm": 0.3956,
+          "x_px": 1585,
+          "y_px": 1519
+        },
+        {
+          "player_id": 7919,
+          "pubg_name": "hawktub",
+          "x_norm": 0.4405,
+          "y_norm": 0.373,
+          "x_px": 1692,
+          "y_px": 1432
+        },
+        {
+          "player_id": 7920,
+          "pubg_name": "Moenster_",
+          "x_norm": 0.4593,
+          "y_norm": 0.3729,
+          "x_px": 1764,
+          "y_px": 1432
+        },
+        {
+          "player_id": 7921,
+          "pubg_name": "FO110K",
+          "x_norm": 0.4221,
+          "y_norm": 0.3942,
+          "x_px": 1621,
+          "y_px": 1514
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2377,
+      "placement": 2,
+      "kills": 3,
+      "players_landed": 4,
+      "x_norm": 0.5202,
+      "y_norm": 0.4069,
+      "x_px": 1998,
+      "y_px": 1562,
+      "players": [
+        {
+          "player_id": 7902,
+          "pubg_name": "Blooffi",
+          "x_norm": 0.5402,
+          "y_norm": 0.407,
+          "x_px": 2074,
+          "y_px": 1563
+        },
+        {
+          "player_id": 7903,
+          "pubg_name": "Raaski_",
+          "x_norm": 0.5193,
+          "y_norm": 0.3986,
+          "x_px": 1994,
+          "y_px": 1531
+        },
+        {
+          "player_id": 7904,
+          "pubg_name": "Perat0r",
+          "x_norm": 0.5006,
+          "y_norm": 0.424,
+          "x_px": 1922,
+          "y_px": 1628
+        },
+        {
+          "player_id": 7905,
+          "pubg_name": "6pak",
+          "x_norm": 0.5208,
+          "y_norm": 0.3978,
+          "x_px": 2000,
+          "y_px": 1527
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 19,
+      "placement": 3,
+      "kills": 9,
+      "players_landed": 4,
+      "x_norm": 0.4802,
+      "y_norm": 0.1687,
+      "x_px": 1844,
+      "y_px": 648,
+      "players": [
+        {
+          "player_id": 7894,
+          "pubg_name": "LordNyr",
+          "x_norm": 0.507,
+          "y_norm": 0.1326,
+          "x_px": 1947,
+          "y_px": 509
+        },
+        {
+          "player_id": 7895,
+          "pubg_name": "Metsaroll",
+          "x_norm": 0.4791,
+          "y_norm": 0.1767,
+          "x_px": 1840,
+          "y_px": 679
+        },
+        {
+          "player_id": 7896,
+          "pubg_name": "Johnny-Two-Times",
+          "x_norm": 0.4597,
+          "y_norm": 0.1589,
+          "x_px": 1765,
+          "y_px": 610
+        },
+        {
+          "player_id": 7897,
+          "pubg_name": "GYROFIN",
+          "x_norm": 0.4749,
+          "y_norm": 0.2067,
+          "x_px": 1824,
+          "y_px": 794
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2396,
+      "placement": 4,
+      "kills": 5,
+      "players_landed": 3,
+      "x_norm": 0.4319,
+      "y_norm": 0.2988,
+      "x_px": 1659,
+      "y_px": 1147,
+      "players": [
+        {
+          "player_id": 7863,
+          "pubg_name": "CryptHash",
+          "x_norm": 0.4368,
+          "y_norm": 0.2955,
+          "x_px": 1677,
+          "y_px": 1135
+        },
+        {
+          "player_id": 7864,
+          "pubg_name": "entoz",
+          "x_norm": 0.4373,
+          "y_norm": 0.2952,
+          "x_px": 1679,
+          "y_px": 1133
+        },
+        {
+          "player_id": 7865,
+          "pubg_name": "i-Trap",
+          "x_norm": 0.4217,
+          "y_norm": 0.3056,
+          "x_px": 1619,
+          "y_px": 1173
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2372,
+      "placement": 5,
+      "kills": 4,
+      "players_landed": 4,
+      "x_norm": 0.5248,
+      "y_norm": 0.7683,
+      "x_px": 2015,
+      "y_px": 2950,
+      "players": [
+        {
+          "player_id": 7886,
+          "pubg_name": "VituixMan_",
+          "x_norm": 0.5594,
+          "y_norm": 0.7575,
+          "x_px": 2148,
+          "y_px": 2909
+        },
+        {
+          "player_id": 7887,
+          "pubg_name": "Pr0us",
+          "x_norm": 0.532,
+          "y_norm": 0.7803,
+          "x_px": 2043,
+          "y_px": 2997
+        },
+        {
+          "player_id": 7888,
+          "pubg_name": "Hemis85",
+          "x_norm": 0.5453,
+          "y_norm": 0.8038,
+          "x_px": 2094,
+          "y_px": 3087
+        },
+        {
+          "player_id": 7889,
+          "pubg_name": "Herra47",
+          "x_norm": 0.4625,
+          "y_norm": 0.7316,
+          "x_px": 1776,
+          "y_px": 2809
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 749,
+      "placement": 6,
+      "kills": 5,
+      "players_landed": 4,
+      "x_norm": 0.5756,
+      "y_norm": 0.5514,
+      "x_px": 2210,
+      "y_px": 2117,
+      "players": [
+        {
+          "player_id": 7874,
+          "pubg_name": "KEKSTADT",
+          "x_norm": 0.596,
+          "y_norm": 0.5524,
+          "x_px": 2289,
+          "y_px": 2121
+        },
+        {
+          "player_id": 7875,
+          "pubg_name": "Ortixeri",
+          "x_norm": 0.5383,
+          "y_norm": 0.5755,
+          "x_px": 2067,
+          "y_px": 2210
+        },
+        {
+          "player_id": 7876,
+          "pubg_name": "M4rjis",
+          "x_norm": 0.5706,
+          "y_norm": 0.5189,
+          "x_px": 2191,
+          "y_px": 1992
+        },
+        {
+          "player_id": 7877,
+          "pubg_name": "Takajeejee",
+          "x_norm": 0.5976,
+          "y_norm": 0.5588,
+          "x_px": 2295,
+          "y_px": 2146
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2416,
+      "placement": 7,
+      "kills": 3,
+      "players_landed": 4,
+      "x_norm": 0.5982,
+      "y_norm": 0.3877,
+      "x_px": 2297,
+      "y_px": 1489,
+      "players": [
+        {
+          "player_id": 7878,
+          "pubg_name": "KuiQula",
+          "x_norm": 0.6045,
+          "y_norm": 0.3426,
+          "x_px": 2321,
+          "y_px": 1316
+        },
+        {
+          "player_id": 7879,
+          "pubg_name": "AntiReal",
+          "x_norm": 0.6431,
+          "y_norm": 0.4616,
+          "x_px": 2469,
+          "y_px": 1773
+        },
+        {
+          "player_id": 7880,
+          "pubg_name": "Epitus",
+          "x_norm": 0.5499,
+          "y_norm": 0.3814,
+          "x_px": 2112,
+          "y_px": 1465
+        },
+        {
+          "player_id": 7881,
+          "pubg_name": "Vesilintu",
+          "x_norm": 0.5954,
+          "y_norm": 0.3652,
+          "x_px": 2286,
+          "y_px": 1402
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2384,
+      "placement": 8,
+      "kills": 6,
+      "players_landed": 4,
+      "x_norm": 0.5555,
+      "y_norm": 0.3689,
+      "x_px": 2133,
+      "y_px": 1417,
+      "players": [
+        {
+          "player_id": 7866,
+          "pubg_name": "bob_hans",
+          "x_norm": 0.5544,
+          "y_norm": 0.3566,
+          "x_px": 2129,
+          "y_px": 1369
+        },
+        {
+          "player_id": 7867,
+          "pubg_name": "salampah",
+          "x_norm": 0.5502,
+          "y_norm": 0.3659,
+          "x_px": 2113,
+          "y_px": 1405
+        },
+        {
+          "player_id": 7868,
+          "pubg_name": "ch33ts",
+          "x_norm": 0.5451,
+          "y_norm": 0.3675,
+          "x_px": 2093,
+          "y_px": 1411
+        },
+        {
+          "player_id": 7869,
+          "pubg_name": "InsaneAsylum",
+          "x_norm": 0.5723,
+          "y_norm": 0.3857,
+          "x_px": 2198,
+          "y_px": 1481
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2394,
+      "placement": 9,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.7058,
+      "y_norm": 0.5609,
+      "x_px": 2710,
+      "y_px": 2154,
+      "players": [
+        {
+          "player_id": 7906,
+          "pubg_name": "VonHu0h",
+          "x_norm": 0.7107,
+          "y_norm": 0.56,
+          "x_px": 2729,
+          "y_px": 2150
+        },
+        {
+          "player_id": 7907,
+          "pubg_name": "rippenroppen",
+          "x_norm": 0.7147,
+          "y_norm": 0.582,
+          "x_px": 2745,
+          "y_px": 2235
+        },
+        {
+          "player_id": 7908,
+          "pubg_name": "Joorppi",
+          "x_norm": 0.6981,
+          "y_norm": 0.5308,
+          "x_px": 2681,
+          "y_px": 2038
+        },
+        {
+          "player_id": 7909,
+          "pubg_name": "garudi",
+          "x_norm": 0.6997,
+          "y_norm": 0.5709,
+          "x_px": 2687,
+          "y_px": 2192
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2345,
+      "placement": 10,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.4028,
+      "y_norm": 0.6427,
+      "x_px": 1547,
+      "y_px": 2468,
+      "players": [
+        {
+          "player_id": 7859,
+          "pubg_name": "RedLine5544",
+          "x_norm": 0.4142,
+          "y_norm": 0.6368,
+          "x_px": 1590,
+          "y_px": 2445
+        },
+        {
+          "player_id": 7860,
+          "pubg_name": "kesaesa",
+          "x_norm": 0.3622,
+          "y_norm": 0.664,
+          "x_px": 1391,
+          "y_px": 2550
+        },
+        {
+          "player_id": 7861,
+          "pubg_name": "JuxuPuxu",
+          "x_norm": 0.4649,
+          "y_norm": 0.5792,
+          "x_px": 1785,
+          "y_px": 2224
+        },
+        {
+          "player_id": 7862,
+          "pubg_name": "azgah",
+          "x_norm": 0.3699,
+          "y_norm": 0.6908,
+          "x_px": 1420,
+          "y_px": 2653
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2390,
+      "placement": 11,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.6485,
+      "y_norm": 0.5686,
+      "x_px": 2490,
+      "y_px": 2183,
+      "players": [
+        {
+          "player_id": 7898,
+          "pubg_name": "delzic",
+          "x_norm": 0.6591,
+          "y_norm": 0.5407,
+          "x_px": 2531,
+          "y_px": 2076
+        },
+        {
+          "player_id": 7899,
+          "pubg_name": "Not_9",
+          "x_norm": 0.6748,
+          "y_norm": 0.561,
+          "x_px": 2591,
+          "y_px": 2154
+        },
+        {
+          "player_id": 7900,
+          "pubg_name": "seven_dc",
+          "x_norm": 0.6299,
+          "y_norm": 0.6099,
+          "x_px": 2419,
+          "y_px": 2342
+        },
+        {
+          "player_id": 7901,
+          "pubg_name": "codesnae",
+          "x_norm": 0.6302,
+          "y_norm": 0.5628,
+          "x_px": 2420,
+          "y_px": 2161
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 66,
+      "placement": 12,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.6676,
+      "y_norm": 0.2802,
+      "x_px": 2564,
+      "y_px": 1076,
+      "players": [
+        {
+          "player_id": 7914,
+          "pubg_name": "Slobby_",
+          "x_norm": 0.6526,
+          "y_norm": 0.2848,
+          "x_px": 2506,
+          "y_px": 1094
+        },
+        {
+          "player_id": 7915,
+          "pubg_name": "Kaahari",
+          "x_norm": 0.6766,
+          "y_norm": 0.276,
+          "x_px": 2598,
+          "y_px": 1060
+        },
+        {
+          "player_id": 7916,
+          "pubg_name": "MAdF1N",
+          "x_norm": 0.6683,
+          "y_norm": 0.2762,
+          "x_px": 2566,
+          "y_px": 1060
+        },
+        {
+          "player_id": 7917,
+          "pubg_name": "Aicer",
+          "x_norm": 0.6729,
+          "y_norm": 0.2839,
+          "x_px": 2584,
+          "y_px": 1090
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 306,
+      "placement": 13,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.7461,
+      "y_norm": 0.3525,
+      "x_px": 2865,
+      "y_px": 1354,
+      "players": [
+        {
+          "player_id": 7870,
+          "pubg_name": "Targaryen73",
+          "x_norm": 0.7188,
+          "y_norm": 0.3556,
+          "x_px": 2760,
+          "y_px": 1366
+        },
+        {
+          "player_id": 7871,
+          "pubg_name": "Tiger-Fi",
+          "x_norm": 0.7637,
+          "y_norm": 0.3697,
+          "x_px": 2933,
+          "y_px": 1420
+        },
+        {
+          "player_id": 7872,
+          "pubg_name": "osmoo",
+          "x_norm": 0.7422,
+          "y_norm": 0.3215,
+          "x_px": 2850,
+          "y_px": 1235
+        },
+        {
+          "player_id": 7873,
+          "pubg_name": "Wirtane",
+          "x_norm": 0.7598,
+          "y_norm": 0.3631,
+          "x_px": 2918,
+          "y_px": 1394
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 1034,
+      "placement": 14,
+      "kills": 4,
+      "players_landed": 4,
+      "x_norm": 0.7778,
+      "y_norm": 0.1554,
+      "x_px": 2987,
+      "y_px": 597,
+      "players": [
+        {
+          "player_id": 7926,
+          "pubg_name": "Pena3000",
+          "x_norm": 0.8103,
+          "y_norm": 0.1084,
+          "x_px": 3112,
+          "y_px": 416
+        },
+        {
+          "player_id": 7927,
+          "pubg_name": "Tuloinen",
+          "x_norm": 0.689,
+          "y_norm": 0.171,
+          "x_px": 2646,
+          "y_px": 657
+        },
+        {
+          "player_id": 7928,
+          "pubg_name": "MahtiMarsalkka",
+          "x_norm": 0.8051,
+          "y_norm": 0.2016,
+          "x_px": 3092,
+          "y_px": 774
+        },
+        {
+          "player_id": 7929,
+          "pubg_name": "Romisame",
+          "x_norm": 0.8066,
+          "y_norm": 0.1407,
+          "x_px": 3097,
+          "y_px": 540
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2367,
+      "placement": 15,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.5021,
+      "y_norm": 0.3621,
+      "x_px": 1928,
+      "y_px": 1390,
+      "players": [
+        {
+          "player_id": 7910,
+          "pubg_name": "EliasJPD",
+          "x_norm": 0.4833,
+          "y_norm": 0.358,
+          "x_px": 1856,
+          "y_px": 1375
+        },
+        {
+          "player_id": 7911,
+          "pubg_name": "mikza",
+          "x_norm": 0.5033,
+          "y_norm": 0.3478,
+          "x_px": 1933,
+          "y_px": 1336
+        },
+        {
+          "player_id": 7912,
+          "pubg_name": "MaitomiesDan",
+          "x_norm": 0.5028,
+          "y_norm": 0.3698,
+          "x_px": 1931,
+          "y_px": 1420
+        },
+        {
+          "player_id": 7913,
+          "pubg_name": "Mcfleezy",
+          "x_norm": 0.5192,
+          "y_norm": 0.3726,
+          "x_px": 1994,
+          "y_px": 1431
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2439,
+      "placement": 16,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.6625,
+      "y_norm": 0.2927,
+      "x_px": 2544,
+      "y_px": 1124,
+      "players": [
+        {
+          "player_id": 7890,
+          "pubg_name": "Yes_Copyleft",
+          "x_norm": 0.6605,
+          "y_norm": 0.294,
+          "x_px": 2536,
+          "y_px": 1129
+        },
+        {
+          "player_id": 7891,
+          "pubg_name": "Jassi__",
+          "x_norm": 0.6684,
+          "y_norm": 0.2911,
+          "x_px": 2567,
+          "y_px": 1118
+        },
+        {
+          "player_id": 7892,
+          "pubg_name": "koristi",
+          "x_norm": 0.6594,
+          "y_norm": 0.2913,
+          "x_px": 2532,
+          "y_px": 1119
+        },
+        {
+          "player_id": 7893,
+          "pubg_name": "roskakuski",
+          "x_norm": 0.6615,
+          "y_norm": 0.2943,
+          "x_px": 2540,
+          "y_px": 1130
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2382,
+      "placement": 17,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.3901,
+      "y_norm": 0.404,
+      "x_px": 1498,
+      "y_px": 1551,
+      "players": [
+        {
+          "player_id": 7882,
+          "pubg_name": "perusmaukka",
+          "x_norm": 0.394,
+          "y_norm": 0.396,
+          "x_px": 1513,
+          "y_px": 1521
+        },
+        {
+          "player_id": 7883,
+          "pubg_name": "Keljukossi",
+          "x_norm": 0.3896,
+          "y_norm": 0.4056,
+          "x_px": 1496,
+          "y_px": 1558
+        },
+        {
+          "player_id": 7884,
+          "pubg_name": "Marlemshake",
+          "x_norm": 0.3889,
+          "y_norm": 0.4094,
+          "x_px": 1494,
+          "y_px": 1572
+        },
+        {
+          "player_id": 7885,
+          "pubg_name": "Errno452",
+          "x_norm": 0.3879,
+          "y_norm": 0.405,
+          "x_px": 1490,
+          "y_px": 1555
+        }
+      ]
+    },
+    {
+      "match_id": 115,
+      "session_name": "Day 8",
+      "match_number": 3,
+      "played_at": "2026-11-02T19:20:35.000Z",
+      "map_id": 12,
+      "team_id": 2381,
+      "placement": 18,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.4456,
+      "y_norm": 0.4933,
+      "x_px": 1711,
+      "y_px": 1894,
+      "players": [
+        {
+          "player_id": 7922,
+          "pubg_name": "LanausKone",
+          "x_norm": 0.4612,
+          "y_norm": 0.4868,
+          "x_px": 1771,
+          "y_px": 1869
+        },
+        {
+          "player_id": 7923,
+          "pubg_name": "Mazena",
+          "x_norm": 0.4584,
+          "y_norm": 0.5048,
+          "x_px": 1760,
+          "y_px": 1939
+        },
+        {
+          "player_id": 7924,
+          "pubg_name": "LARDSHOCKER",
+          "x_norm": 0.4489,
+          "y_norm": 0.5037,
+          "x_px": 1724,
+          "y_px": 1934
+        },
+        {
+          "player_id": 7925,
+          "pubg_name": "keppikeijo",
+          "x_norm": 0.414,
+          "y_norm": 0.4778,
+          "x_px": 1590,
+          "y_px": 1835
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2396,
+      "placement": 1,
+      "kills": 16,
+      "players_landed": 3,
+      "x_norm": 0.2735,
+      "y_norm": 0.4831,
+      "x_px": 1050,
+      "y_px": 1855,
+      "players": [
+        {
+          "player_id": 7970,
+          "pubg_name": "CryptHash",
+          "x_norm": 0.273,
+          "y_norm": 0.4851,
+          "x_px": 1048,
+          "y_px": 1863
+        },
+        {
+          "player_id": 7971,
+          "pubg_name": "i-Trap",
+          "x_norm": 0.2733,
+          "y_norm": 0.4786,
+          "x_px": 1050,
+          "y_px": 1838
+        },
+        {
+          "player_id": 7972,
+          "pubg_name": "entoz",
+          "x_norm": 0.2742,
+          "y_norm": 0.4855,
+          "x_px": 1053,
+          "y_px": 1864
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2372,
+      "placement": 2,
+      "kills": 10,
+      "players_landed": 4,
+      "x_norm": 0.5081,
+      "y_norm": 0.7174,
+      "x_px": 1951,
+      "y_px": 2755,
+      "players": [
+        {
+          "player_id": 7954,
+          "pubg_name": "VituixMan_",
+          "x_norm": 0.4568,
+          "y_norm": 0.7278,
+          "x_px": 1754,
+          "y_px": 2795
+        },
+        {
+          "player_id": 7955,
+          "pubg_name": "Herra47",
+          "x_norm": 0.4612,
+          "y_norm": 0.7303,
+          "x_px": 1771,
+          "y_px": 2805
+        },
+        {
+          "player_id": 7956,
+          "pubg_name": "Hemis85",
+          "x_norm": 0.5685,
+          "y_norm": 0.7115,
+          "x_px": 2183,
+          "y_px": 2732
+        },
+        {
+          "player_id": 7957,
+          "pubg_name": "Pr0us",
+          "x_norm": 0.5461,
+          "y_norm": 0.7001,
+          "x_px": 2097,
+          "y_px": 2688
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 749,
+      "placement": 3,
+      "kills": 3,
+      "players_landed": 4,
+      "x_norm": 0.5739,
+      "y_norm": 0.551,
+      "x_px": 2204,
+      "y_px": 2116,
+      "players": [
+        {
+          "player_id": 7985,
+          "pubg_name": "Ortixeri",
+          "x_norm": 0.5309,
+          "y_norm": 0.5718,
+          "x_px": 2039,
+          "y_px": 2196
+        },
+        {
+          "player_id": 7986,
+          "pubg_name": "KEKSTADT",
+          "x_norm": 0.5964,
+          "y_norm": 0.5507,
+          "x_px": 2290,
+          "y_px": 2115
+        },
+        {
+          "player_id": 7987,
+          "pubg_name": "M4rjis",
+          "x_norm": 0.5694,
+          "y_norm": 0.5196,
+          "x_px": 2187,
+          "y_px": 1995
+        },
+        {
+          "player_id": 7988,
+          "pubg_name": "Takajeejee",
+          "x_norm": 0.5989,
+          "y_norm": 0.562,
+          "x_px": 2300,
+          "y_px": 2158
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 306,
+      "placement": 4,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.7506,
+      "y_norm": 0.3548,
+      "x_px": 2882,
+      "y_px": 1362,
+      "players": [
+        {
+          "player_id": 7973,
+          "pubg_name": "Targaryen73",
+          "x_norm": 0.7293,
+          "y_norm": 0.3658,
+          "x_px": 2800,
+          "y_px": 1405
+        },
+        {
+          "player_id": 7974,
+          "pubg_name": "Wirtane",
+          "x_norm": 0.7625,
+          "y_norm": 0.3661,
+          "x_px": 2928,
+          "y_px": 1406
+        },
+        {
+          "player_id": 7975,
+          "pubg_name": "osmoo",
+          "x_norm": 0.7418,
+          "y_norm": 0.3206,
+          "x_px": 2848,
+          "y_px": 1231
+        },
+        {
+          "player_id": 7976,
+          "pubg_name": "Tiger-Fi",
+          "x_norm": 0.7687,
+          "y_norm": 0.3666,
+          "x_px": 2952,
+          "y_px": 1408
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2381,
+      "placement": 5,
+      "kills": 11,
+      "players_landed": 4,
+      "x_norm": 0.4491,
+      "y_norm": 0.5027,
+      "x_px": 1724,
+      "y_px": 1931,
+      "players": [
+        {
+          "player_id": 7997,
+          "pubg_name": "LARDSHOCKER",
+          "x_norm": 0.4489,
+          "y_norm": 0.5038,
+          "x_px": 1724,
+          "y_px": 1934
+        },
+        {
+          "player_id": 7998,
+          "pubg_name": "Mazena",
+          "x_norm": 0.4575,
+          "y_norm": 0.5055,
+          "x_px": 1757,
+          "y_px": 1941
+        },
+        {
+          "player_id": 7999,
+          "pubg_name": "Hwak",
+          "x_norm": 0.4641,
+          "y_norm": 0.515,
+          "x_px": 1782,
+          "y_px": 1978
+        },
+        {
+          "player_id": 8000,
+          "pubg_name": "keppikeijo",
+          "x_norm": 0.4258,
+          "y_norm": 0.4866,
+          "x_px": 1635,
+          "y_px": 1869
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2384,
+      "placement": 6,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.5641,
+      "y_norm": 0.3866,
+      "x_px": 2166,
+      "y_px": 1484,
+      "players": [
+        {
+          "player_id": 7962,
+          "pubg_name": "bob_hans",
+          "x_norm": 0.5869,
+          "y_norm": 0.4011,
+          "x_px": 2254,
+          "y_px": 1540
+        },
+        {
+          "player_id": 7963,
+          "pubg_name": "ch33ts",
+          "x_norm": 0.5535,
+          "y_norm": 0.385,
+          "x_px": 2125,
+          "y_px": 1479
+        },
+        {
+          "player_id": 7964,
+          "pubg_name": "salampah",
+          "x_norm": 0.5499,
+          "y_norm": 0.382,
+          "x_px": 2111,
+          "y_px": 1467
+        },
+        {
+          "player_id": 7965,
+          "pubg_name": "InsaneAsylum",
+          "x_norm": 0.566,
+          "y_norm": 0.3782,
+          "x_px": 2173,
+          "y_px": 1452
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2394,
+      "placement": 7,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.7391,
+      "y_norm": 0.5871,
+      "x_px": 2838,
+      "y_px": 2255,
+      "players": [
+        {
+          "player_id": 7993,
+          "pubg_name": "Joorppi",
+          "x_norm": 0.7587,
+          "y_norm": 0.5972,
+          "x_px": 2913,
+          "y_px": 2293
+        },
+        {
+          "player_id": 7994,
+          "pubg_name": "VonHu0h",
+          "x_norm": 0.7406,
+          "y_norm": 0.59,
+          "x_px": 2844,
+          "y_px": 2266
+        },
+        {
+          "player_id": 7995,
+          "pubg_name": "garudi",
+          "x_norm": 0.7414,
+          "y_norm": 0.5796,
+          "x_px": 2847,
+          "y_px": 2226
+        },
+        {
+          "player_id": 7996,
+          "pubg_name": "rippenroppen",
+          "x_norm": 0.7156,
+          "y_norm": 0.5818,
+          "x_px": 2748,
+          "y_px": 2234
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 1034,
+      "placement": 8,
+      "kills": 7,
+      "players_landed": 4,
+      "x_norm": 0.199,
+      "y_norm": 0.748,
+      "x_px": 764,
+      "y_px": 2872,
+      "players": [
+        {
+          "player_id": 7989,
+          "pubg_name": "MahtiMarsalkka",
+          "x_norm": 0.1911,
+          "y_norm": 0.7501,
+          "x_px": 734,
+          "y_px": 2880
+        },
+        {
+          "player_id": 7990,
+          "pubg_name": "Tuloinen",
+          "x_norm": 0.1992,
+          "y_norm": 0.7643,
+          "x_px": 765,
+          "y_px": 2935
+        },
+        {
+          "player_id": 7991,
+          "pubg_name": "Pena3000",
+          "x_norm": 0.1881,
+          "y_norm": 0.7238,
+          "x_px": 722,
+          "y_px": 2779
+        },
+        {
+          "player_id": 7992,
+          "pubg_name": "Romisame",
+          "x_norm": 0.2178,
+          "y_norm": 0.7538,
+          "x_px": 836,
+          "y_px": 2895
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2377,
+      "placement": 9,
+      "kills": 4,
+      "players_landed": 4,
+      "x_norm": 0.5198,
+      "y_norm": 0.4093,
+      "x_px": 1996,
+      "y_px": 1572,
+      "players": [
+        {
+          "player_id": 7977,
+          "pubg_name": "Blooffi",
+          "x_norm": 0.5424,
+          "y_norm": 0.4152,
+          "x_px": 2083,
+          "y_px": 1594
+        },
+        {
+          "player_id": 7978,
+          "pubg_name": "Perat0r",
+          "x_norm": 0.5005,
+          "y_norm": 0.4235,
+          "x_px": 1922,
+          "y_px": 1626
+        },
+        {
+          "player_id": 7979,
+          "pubg_name": "Raaski_",
+          "x_norm": 0.5154,
+          "y_norm": 0.3997,
+          "x_px": 1979,
+          "y_px": 1535
+        },
+        {
+          "player_id": 7980,
+          "pubg_name": "6pak",
+          "x_norm": 0.5207,
+          "y_norm": 0.399,
+          "x_px": 1999,
+          "y_px": 1532
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2367,
+      "placement": 10,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.4935,
+      "y_norm": 0.3647,
+      "x_px": 1895,
+      "y_px": 1400,
+      "players": [
+        {
+          "player_id": 7946,
+          "pubg_name": "MaitomiesDan",
+          "x_norm": 0.4941,
+          "y_norm": 0.368,
+          "x_px": 1897,
+          "y_px": 1413
+        },
+        {
+          "player_id": 7947,
+          "pubg_name": "mikza",
+          "x_norm": 0.517,
+          "y_norm": 0.3551,
+          "x_px": 1985,
+          "y_px": 1363
+        },
+        {
+          "player_id": 7948,
+          "pubg_name": "EliasJPD",
+          "x_norm": 0.4684,
+          "y_norm": 0.367,
+          "x_px": 1799,
+          "y_px": 1409
+        },
+        {
+          "player_id": 7949,
+          "pubg_name": "Mcfleezy",
+          "x_norm": 0.4944,
+          "y_norm": 0.3686,
+          "x_px": 1899,
+          "y_px": 1415
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2382,
+      "placement": 11,
+      "kills": 2,
+      "players_landed": 4,
+      "x_norm": 0.3863,
+      "y_norm": 0.4027,
+      "x_px": 1483,
+      "y_px": 1546,
+      "players": [
+        {
+          "player_id": 7981,
+          "pubg_name": "Errno452",
+          "x_norm": 0.3906,
+          "y_norm": 0.4033,
+          "x_px": 1500,
+          "y_px": 1549
+        },
+        {
+          "player_id": 7982,
+          "pubg_name": "Keljukossi",
+          "x_norm": 0.3812,
+          "y_norm": 0.3919,
+          "x_px": 1464,
+          "y_px": 1505
+        },
+        {
+          "player_id": 7983,
+          "pubg_name": "Marlemshake",
+          "x_norm": 0.3884,
+          "y_norm": 0.4095,
+          "x_px": 1491,
+          "y_px": 1572
+        },
+        {
+          "player_id": 7984,
+          "pubg_name": "perusmaukka",
+          "x_norm": 0.3849,
+          "y_norm": 0.4061,
+          "x_px": 1478,
+          "y_px": 1559
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 66,
+      "placement": 12,
+      "kills": 3,
+      "players_landed": 4,
+      "x_norm": 0.8474,
+      "y_norm": 0.3947,
+      "x_px": 3254,
+      "y_px": 1516,
+      "players": [
+        {
+          "player_id": 7958,
+          "pubg_name": "Slobby_",
+          "x_norm": 0.8154,
+          "y_norm": 0.3776,
+          "x_px": 3131,
+          "y_px": 1450
+        },
+        {
+          "player_id": 7959,
+          "pubg_name": "Kaahari",
+          "x_norm": 0.8624,
+          "y_norm": 0.3908,
+          "x_px": 3312,
+          "y_px": 1501
+        },
+        {
+          "player_id": 7960,
+          "pubg_name": "Aicer",
+          "x_norm": 0.845,
+          "y_norm": 0.406,
+          "x_px": 3245,
+          "y_px": 1559
+        },
+        {
+          "player_id": 7961,
+          "pubg_name": "MAdF1N",
+          "x_norm": 0.8666,
+          "y_norm": 0.4042,
+          "x_px": 3328,
+          "y_px": 1552
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2439,
+      "placement": 13,
+      "kills": 3,
+      "players_landed": 4,
+      "x_norm": 0.6761,
+      "y_norm": 0.2973,
+      "x_px": 2596,
+      "y_px": 1142,
+      "players": [
+        {
+          "player_id": 7950,
+          "pubg_name": "koristi",
+          "x_norm": 0.6939,
+          "y_norm": 0.3039,
+          "x_px": 2665,
+          "y_px": 1167
+        },
+        {
+          "player_id": 7951,
+          "pubg_name": "Jassi__",
+          "x_norm": 0.6755,
+          "y_norm": 0.2842,
+          "x_px": 2594,
+          "y_px": 1091
+        },
+        {
+          "player_id": 7952,
+          "pubg_name": "Yes_Copyleft",
+          "x_norm": 0.6684,
+          "y_norm": 0.293,
+          "x_px": 2567,
+          "y_px": 1125
+        },
+        {
+          "player_id": 7953,
+          "pubg_name": "roskakuski",
+          "x_norm": 0.6666,
+          "y_norm": 0.3083,
+          "x_px": 2560,
+          "y_px": 1184
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 19,
+      "placement": 14,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.8324,
+      "y_norm": 0.5448,
+      "x_px": 3197,
+      "y_px": 2092,
+      "players": [
+        {
+          "player_id": 7966,
+          "pubg_name": "LordNyr",
+          "x_norm": 0.8414,
+          "y_norm": 0.5662,
+          "x_px": 3231,
+          "y_px": 2174
+        },
+        {
+          "player_id": 7967,
+          "pubg_name": "Metsaroll",
+          "x_norm": 0.793,
+          "y_norm": 0.5172,
+          "x_px": 3045,
+          "y_px": 1986
+        },
+        {
+          "player_id": 7968,
+          "pubg_name": "Johnny-Two-Times",
+          "x_norm": 0.8786,
+          "y_norm": 0.5274,
+          "x_px": 3374,
+          "y_px": 2025
+        },
+        {
+          "player_id": 7969,
+          "pubg_name": "GYROFIN",
+          "x_norm": 0.8167,
+          "y_norm": 0.5683,
+          "x_px": 3136,
+          "y_px": 2182
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2390,
+      "placement": 15,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.661,
+      "y_norm": 0.585,
+      "x_px": 2538,
+      "y_px": 2247,
+      "players": [
+        {
+          "player_id": 7930,
+          "pubg_name": "codesnae",
+          "x_norm": 0.6316,
+          "y_norm": 0.5627,
+          "x_px": 2425,
+          "y_px": 2161
+        },
+        {
+          "player_id": 7931,
+          "pubg_name": "seven_dc",
+          "x_norm": 0.6251,
+          "y_norm": 0.6117,
+          "x_px": 2400,
+          "y_px": 2349
+        },
+        {
+          "player_id": 7932,
+          "pubg_name": "Not_9",
+          "x_norm": 0.7022,
+          "y_norm": 0.5501,
+          "x_px": 2697,
+          "y_px": 2112
+        },
+        {
+          "player_id": 7933,
+          "pubg_name": "delzic",
+          "x_norm": 0.685,
+          "y_norm": 0.6157,
+          "x_px": 2630,
+          "y_px": 2364
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2345,
+      "placement": 16,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.3682,
+      "y_norm": 0.6693,
+      "x_px": 1414,
+      "y_px": 2570,
+      "players": [
+        {
+          "player_id": 7942,
+          "pubg_name": "RedLine5544",
+          "x_norm": 0.3707,
+          "y_norm": 0.6907,
+          "x_px": 1423,
+          "y_px": 2652
+        },
+        {
+          "player_id": 7943,
+          "pubg_name": "kesaesa",
+          "x_norm": 0.3613,
+          "y_norm": 0.6655,
+          "x_px": 1387,
+          "y_px": 2555
+        },
+        {
+          "player_id": 7944,
+          "pubg_name": "JuxuPuxu",
+          "x_norm": 0.405,
+          "y_norm": 0.6485,
+          "x_px": 1555,
+          "y_px": 2490
+        },
+        {
+          "player_id": 7945,
+          "pubg_name": "azgah",
+          "x_norm": 0.336,
+          "y_norm": 0.6727,
+          "x_px": 1290,
+          "y_px": 2583
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2416,
+      "placement": 17,
+      "kills": 1,
+      "players_landed": 4,
+      "x_norm": 0.26,
+      "y_norm": 0.4726,
+      "x_px": 998,
+      "y_px": 1815,
+      "players": [
+        {
+          "player_id": 7934,
+          "pubg_name": "AntiReal",
+          "x_norm": 0.2611,
+          "y_norm": 0.4472,
+          "x_px": 1003,
+          "y_px": 1717
+        },
+        {
+          "player_id": 7935,
+          "pubg_name": "Vesilintu",
+          "x_norm": 0.2739,
+          "y_norm": 0.4872,
+          "x_px": 1052,
+          "y_px": 1871
+        },
+        {
+          "player_id": 7936,
+          "pubg_name": "Epitus",
+          "x_norm": 0.2425,
+          "y_norm": 0.4716,
+          "x_px": 931,
+          "y_px": 1811
+        },
+        {
+          "player_id": 7937,
+          "pubg_name": "finpara66",
+          "x_norm": 0.2624,
+          "y_norm": 0.4845,
+          "x_px": 1008,
+          "y_px": 1861
+        }
+      ]
+    },
+    {
+      "match_id": 116,
+      "session_name": "Day 8",
+      "match_number": 4,
+      "played_at": "2026-11-02T20:00:29.000Z",
+      "map_id": 12,
+      "team_id": 2400,
+      "placement": 18,
+      "kills": 0,
+      "players_landed": 4,
+      "x_norm": 0.4356,
+      "y_norm": 0.3886,
+      "x_px": 1673,
+      "y_px": 1492,
+      "players": [
+        {
+          "player_id": 7938,
+          "pubg_name": "Moenster_",
+          "x_norm": 0.4597,
+          "y_norm": 0.3738,
+          "x_px": 1765,
+          "y_px": 1435
+        },
+        {
+          "player_id": 7939,
+          "pubg_name": "FO110K",
+          "x_norm": 0.4324,
+          "y_norm": 0.3959,
+          "x_px": 1660,
+          "y_px": 1520
+        },
+        {
+          "player_id": 7940,
+          "pubg_name": "Sykomayn",
+          "x_norm": 0.4163,
+          "y_norm": 0.3968,
+          "x_px": 1599,
+          "y_px": 1524
+        },
+        {
+          "player_id": 7941,
+          "pubg_name": "hawktub",
+          "x_norm": 0.4342,
+          "y_norm": 0.388,
+          "x_px": 1667,
+          "y_px": 1490
         }
       ]
     }
